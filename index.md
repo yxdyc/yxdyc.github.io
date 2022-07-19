@@ -21,7 +21,7 @@ Email: daoyuanchen.cdy AT alibaba-inc.com
 ## Academic Services
 + Regular Reviewer & PC Member: NeurIPS, ICML, KDD, ACL, EMNLP, NAACL, IJCAI, CIKM, Expert Systems with Applications
 
-## Publications [Google Scholar](https://scholar.google.com/citations?hl=en&user=1GdfinUAAAAJ)
+## Publications ([Google Scholar])(https://scholar.google.com/citations?hl=en&user=1GdfinUAAAAJ)
 
 ### 2022
 + **Daoyuan Chen**, Dawei Gao, Weirui Kuang, Yaliang Li, Bolin Ding. *pFL-Bench: A Comprehensive Benchmark for Personalized Federated Learning*. arXiv, 2022. 
@@ -29,7 +29,7 @@ Email: daoyuanchen.cdy AT alibaba-inc.com
 + Liuyi Yao, Dawei Gao, Zhen Wang, Yuexiang Xie, Weirui Kuang, **Daoyuan Chen**, Haohui Wang, Chenhe Dong, Bolin Ding, Yaliang Li. *A Benchmark for Federated Hetero-Task Learning.* arXiv, 2022. 
 
 ### 2021
-+ **Daoyuan Chen**, Wuchao Li, Yaliang Li, Bolin Ding, Kai Zeng, Defu Lian, Jingren Zhou. *Learned Index with Dynamic $\epsilon$.* 
++ **Daoyuan Chen**, Wuchao Li, Yaliang Li, Bolin Ding, Kai Zeng, Defu Lian, Jingren Zhou. *Learned Index with Dynamic $$\epsilon$$.* 
 + Yaliang Li\*, **Daoyuan Chen**\*, Bolin Ding, Kai Zeng, Jingren Zhou. *A pluggable learned index method via sampling and gap insertion.* In arXiv, 2021
 + Ying Shen, Min Yang, Yaliang Li, Dong Wang, Haitao Zheng, **Daoyuan Chen**. *Knowledge-Based Reasoning Network for Relation Detection.* In TNNLS, 2021.
 

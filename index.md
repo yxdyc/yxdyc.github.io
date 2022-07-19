@@ -34,7 +34,7 @@ Email: daoyuanchen.cdy AT alibaba-inc.com
 + Ying Shen, Min Yang, Yaliang Li, Dong Wang, Haitao Zheng, **Daoyuan Chen**. *Knowledge-Based Reasoning Network for Relation Detection.* In TNNLS, 2021.
 
 ### 2020
-+ **Daoyuan Chen**, Yaliang Li, Minghui Qiu, Zhen Wang, Bofang Li, Bolin Ding, Hongbo Deng, Jun Huang, Wei Lin, Jingren Zhou. *Adabert: Task-adaptive bert compression with differentiable neural architecture search.* In IJCAI, 2020.
++ **Daoyuan Chen**\*, Yaliang Li\*, Minghui Qiu, Zhen Wang, Bofang Li, Bolin Ding, Hongbo Deng, Jun Huang, Wei Lin, Jingren Zhou. *Adabert: Task-adaptive bert compression with differentiable neural architecture search.* In IJCAI, 2020.
 + **Daoyuan Chen**, Yaliang Li, Kai Lei, Ying Shen. *Relabel the noise: joint extraction of entities and relations via cooperative multiagents.* In ACL, 2020.
 + **Daoyuan Chen**, Yaliang Li, Bolin Ding, Ying Shen. *An Adaptive Embedding Framework for Heterogeneous Information Networks.* In CIKM, 2020.  
 + Yang Deng, Wai Lam, Yuexiang Xie, **Daoyuan Chen**, Yaliang Li, Min Yang, Ying Shen. *Joint learning of answer selection and answer summary generation in community question answering.* In AAAI, 2020.  

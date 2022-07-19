@@ -1,7 +1,7 @@
 ###### &nbsp;
 
 # Daoyuan Chen 
-I am a researcher at Alibaba DAMO Academy.  
+@ Alibaba DAMO Academy.  
 
 Email: daoyuanchen.cdy AT alibaba-inc.com
 

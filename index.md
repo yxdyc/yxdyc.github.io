@@ -1,7 +1,7 @@
 ###### &nbsp;
 
 # Daoyuan Chen 
-@ Alibaba DAMO Academy.  
+I am currently a staff at Alibaba DAMO Academy.  
 
 Email: daoyuanchen.cdy AT alibaba-inc.com
 
@@ -47,3 +47,11 @@ Email: daoyuanchen.cdy AT alibaba-inc.com
 + Kai Lei\*, **Daoyuan Chen**\*, Yaliang Li, Nan Du, Min Yang, Wei Fan, Ying Shen. *Cooperative denoising for distantly supervised relation extraction.* In COLING, 2018.
 + Ying Shen\*, **Daoyuan Chen**\*, Min Yang, Yaliang Li, Nan Du, Kai Lei *Ontology evaluation with path-based text-aware entropy computation.* In SIGIR, 2018.
 + Ying Shen, Kaiqi Yuan, **Daoyuan Chen**, Joël Colloc, Min Yang, Yaliang Li, Kai Lei. *An ontology-driven clinical decision support system (IDDAP) for infectious disease diagnosis and antibiotic prescription.* In Artificial intelligence in medicine, 2018.
+
+
+## Awards
++ KDD Cup, AutoML Track, 4/149, 2020 ([our solution](https://github.com/joneswong/AutoGraph))
++ Excellent Graduates, Peking University, 2019
++ COLING Area Chair Favorite Paper, 2018
++ ACM SIGIR Student Travel Grant, 2018
++ Excellent Graduates, University of Electronic Science and Technology of China, 2016

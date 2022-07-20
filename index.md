@@ -41,11 +41,11 @@ Email: daoyuanchen.cdy AT alibaba-inc.com
 + Kai Lei, Jin Zhang, Yuexiang Xie, Desi Wen, **Daoyuan Chen**, Min Yang, Ying Shen. *Path-based reasoning with constrained type attention for knowledge graph completion.* In Neural Computing and Applications, 2020.
 
 ### 2019 and before
-+ **Daoyuan Chen**, Yaliang Li, Min Yang, Hai-Tao Zheng, Ying Shen *Knowledge-aware textual entailment with graph attention network.* In CIKM, 2019.
++ **Daoyuan Chen**, Yaliang Li, Min Yang, Hai-Tao Zheng, Ying Shen. *Knowledge-aware textual entailment with graph attention network.* In CIKM, 2019.
 + **Daoyuan Chen**, Min Yang, Hai-Tao Zheng, Yaliang Li, Ying Shen. *Answer-enhanced Path-aware Relation Detection over Knowledge Base.* In SIGIR, 2019.
-+ Ying Shen, **Daoyuan Chen**, Buzhou Tang, Min Yang, Kai Lei *EAPB: entropy-aware path-based metric for ontology quality.* In Journal of Biomedical Semantics, 2018.
++ Ying Shen, **Daoyuan Chen**, Buzhou Tang, Min Yang, Kai Lei. *EAPB: entropy-aware path-based metric for ontology quality.* In Journal of Biomedical Semantics, 2018.
 + Kai Lei\*, **Daoyuan Chen**\*, Yaliang Li, Nan Du, Min Yang, Wei Fan, Ying Shen. *Cooperative denoising for distantly supervised relation extraction.* In COLING, 2018.
-+ Ying Shen\*, **Daoyuan Chen**\*, Min Yang, Yaliang Li, Nan Du, Kai Lei *Ontology evaluation with path-based text-aware entropy computation.* In SIGIR, 2018.
++ Ying Shen\*, **Daoyuan Chen**\*, Min Yang, Yaliang Li, Nan Du, Kai Lei. *Ontology evaluation with path-based text-aware entropy computation.* In SIGIR, 2018.
 + Ying Shen, Kaiqi Yuan, **Daoyuan Chen**, Joël Colloc, Min Yang, Yaliang Li, Kai Lei. *An ontology-driven clinical decision support system (IDDAP) for infectious disease diagnosis and antibiotic prescription.* In Artificial intelligence in medicine, 2018.
 
 

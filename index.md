@@ -25,8 +25,8 @@ Email: daoyuanchen.cdy AT alibaba-inc.com
 ## Publications ([Google Scholar](https://scholar.google.com/citations?hl=en&user=1GdfinUAAAAJ))
 
 ### 2023
-+ **Daoyuan Chen**, Wuchao Li, Yaliang Li, Bolin Ding, Kai Zeng, Defu Lian, Jingren Zhou. [Learned Index with Dynamic [img src="https://render.githubusercontent.com/render/math?math=\epsilon">.]](https://openreview.net/pdf?id=UiaUEICawgw) In *ICLR*, 2023.
-+ Yuexiang Xie, Zhen Wang, Dawei Gao, **Daoyuan Chen**, Liuyi Yao, Weirui Kuang, Yaliang Li, Bolin Ding, Jingren Zhou. [FederatedScope: A Flexible Federated Learning Platform for Heterogeneity.](https://arxiv.org/abs/2204.05011). In *VLDB*, 2023.
++ **Daoyuan Chen**, Wuchao Li, Yaliang Li, Bolin Ding, Kai Zeng, Defu Lian, Jingren Zhou. [Learned Index with Dynamic $\epsilon$](https://openreview.net/forum?id=UiaUEICawgw). In *ICLR*, 2023.
++ Yuexiang Xie, Zhen Wang, Dawei Gao, **Daoyuan Chen**, Liuyi Yao, Weirui Kuang, Yaliang Li, Bolin Ding, Jingren Zhou. [FederatedScope: A Flexible Federated Learning Platform for Heterogeneity](https://arxiv.org/abs/2204.05011). In *VLDB*, 2023.
 
 ### 2022
 + **Daoyuan Chen**, Dawei Gao, Weirui Kuang, Yaliang Li, Bolin Ding. [pFL-Bench: A Comprehensive Benchmark for Personalized Federated Learning](https://arxiv.org/abs/2206.03655). In *NeurIPS*, 2022, Datasets and Benchmarks track.
@@ -59,9 +59,3 @@ Email: daoyuanchen.cdy AT alibaba-inc.com
 + COLING Area Chair Favorite Paper, 2018
 + ACM SIGIR Student Travel Grant, 2018
 + Excellent Graduates, University of Electronic Science and Technology of China, 2016
-~                                                                                                                                                                                                                                                    
-~                                                                                                                                                                                                                                                    
-~                                                                                                                                                                                                                                                    
-~                                                                                                                                                                                                                                                    
-~                                                                                                                                                                                                                                                    
-

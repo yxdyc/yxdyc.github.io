@@ -27,14 +27,15 @@ Email: daoyuanchen.cdy AT alibaba-inc.com
 ### 2023
 + **Daoyuan Chen**, Wuchao Li, Yaliang Li, Bolin Ding, Kai Zeng, Defu Lian, Jingren Zhou. [Learned Index with Dynamic $\epsilon$](https://openreview.net/forum?id=UiaUEICawgw). In *ICLR*, 2023.
 + Yuexiang Xie, Zhen Wang, Dawei Gao, **Daoyuan Chen**, Liuyi Yao, Weirui Kuang, Yaliang Li, Bolin Ding, Jingren Zhou. [FederatedScope: A Flexible Federated Learning Platform for Heterogeneity](https://arxiv.org/abs/2204.05011). In *VLDB*, 2023.
++ Zeyu Qin, Liuyi Yao, **Daoyuan Chen**, Yaliang Li, Bolin Ding, Minhao Cheng. [Revisiting Personalized Federated Learning: Robustness Against Backdoor Attacks](https://arxiv.org/abs/2302.01677). arXiv, 2023
 
 ### 2022
-+ **Daoyuan Chen**, Dawei Gao, Weirui Kuang, Yaliang Li, Bolin Ding. [pFL-Bench: A Comprehensive Benchmark for Personalized Federated Learning](https://arxiv.org/abs/2206.03655). In *NeurIPS*, 2022, Datasets and Benchmarks track.
++ **Daoyuan Chen**, Dawei Gao, Weirui Kuang, Yaliang Li, Bolin Ding. [pFL-Bench: A Comprehensive Benchmark for Personalized Federated Learning](https://arxiv.org/abs/2206.03655). In *NeurIPS* 2022, Datasets and Benchmarks track.
 
 + Liuyi Yao, Dawei Gao, Zhen Wang, Yuexiang Xie, Weirui Kuang, **Daoyuan Chen**, Haohui Wang, Chenhe Dong, Bolin Ding, Yaliang Li. [A Benchmark for Federated Hetero-Task Learning](https://arxiv.org/abs/2206.03436). *arXiv*, 2022.
 
 ### 2021
-+ Yaliang Li\*, **Daoyuan Chen**\*, Bolin Ding, Kai Zeng, Jingren Zhou. [A pluggable learned index method via sampling and gap insertion.](https://arxiv.org/abs/2101.00808) In *arXiv*, 2021
++ Yaliang Li\*, **Daoyuan Chen**\*, Bolin Ding, Kai Zeng, Jingren Zhou. [A pluggable learned index method via sampling and gap insertion.](https://arxiv.org/abs/2101.00808) *arXiv*, 2021.
 + Ying Shen, Min Yang, Yaliang Li, Dong Wang, Haitao Zheng, **Daoyuan Chen**. [Knowledge-Based Reasoning Network for Relation Detection.](https://pubmed.ncbi.nlm.nih.gov/34752410/) In *TNNLS*, 2021.
 
 ### 2020

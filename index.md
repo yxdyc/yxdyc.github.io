@@ -1,15 +1,9 @@
 ###### &nbsp;
 
 # Daoyuan Chen 
-I am currently a staff at Alibaba DAMO Academy. I'm interested in the research and applications of efficient Machine Learning, Federated Learning and NLP.
+I am currently a staff at Alibaba DAMO Academy. I'm interested in the research, systems and applications of efficient Machine Learning, Federated Learning and NLP.
 
 Email: daoyuanchen.cdy AT alibaba-inc.com
-
-
-## Education
-
-+ M.S., 2016 - 2019, Computer Application Technology, Peking University.
-+ B.E., 2012 - 2016, Computer Science and Technology, University of Electronic Science and Technology of China.
 
 
 ## Working Experiences
@@ -18,9 +12,24 @@ Email: daoyuanchen.cdy AT alibaba-inc.com
 + Research Intern, March 2018 - June 2018, Tencent Medical AI Lab
 + Research Assistant, October 2016 - August 2017, Multimedia Software Engineering Research Center @ City University of Hong Kong
 
+
 ## Academic Services
-+ Regular Reviewer & PC Member: NeurIPS, ICML, KDD, ACL, EMNLP, NAACL, CVPR, ICCV, IJCAI, CIKM, Expert Systems with Applications
++ Regular Reviewer: NeurIPS, ICML, KDD, ACL, EMNLP, NAACL, CVPR, ICCV, IJCAI, CIKM, Expert Systems with Applications
 + Tutorial organizer: [A Practical Introduction to Federated Learning](https://joneswong.github.io/KDD22FLTutorial/) (KDD 2022)
+
+
+## Education
+
++ M.S., 2016 - 2019, Computer Application Technology, Peking University.
++ B.E., 2012 - 2016, Computer Science and Technology, University of Electronic Science and Technology of China.
+
+## Awards
++ KDD Cup, AutoML Track, 4/149, 2020 ([our solution](https://github.com/joneswong/AutoGraph))
++ Excellent Graduates, Peking University, 2019
++ COLING Best Paper [Nominations](https://coling2018.org/index.html%3Fp=1558.html), 2018
++ ACM SIGIR Student Travel Grant, 2018
++ Excellent Graduates, University of Electronic Science and Technology of China, 2016
+
 
 ## Publications ([Google Scholar](https://scholar.google.com/citations?hl=en&user=1GdfinUAAAAJ))
 
@@ -53,11 +62,3 @@ Email: daoyuanchen.cdy AT alibaba-inc.com
 + Ying Shen\*, **Daoyuan Chen**\*, Min Yang, Yaliang Li, Nan Du, Kai Lei. [Ontology evaluation with path-based text-aware entropy computation.](https://dl.acm.org/doi/abs/10.1145/3209978.3210067) In ***SIGIR***, 2018.
 + Ying Shen, **Daoyuan Chen**, Buzhou Tang, Min Yang, Kai Lei. [EAPB: entropy-aware path-based metric for ontology quality.](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-018-0188-7) In ***Journal of Biomedical Semantics***, 2018.
 + Ying Shen, Kaiqi Yuan, **Daoyuan Chen**, Joël Colloc, Min Yang, Yaliang Li, Kai Lei. [An ontology-driven clinical decision support system (IDDAP) for infectious disease diagnosis and antibiotic prescription.](https://pubmed.ncbi.nlm.nih.gov/29433958/) In ***Artificial intelligence in medicine***, 2018.
-
-
-## Awards
-+ KDD Cup, AutoML Track, 4/149, 2020 ([our solution](https://github.com/joneswong/AutoGraph))
-+ Excellent Graduates, Peking University, 2019
-+ COLING Best Paper [Nominations](https://coling2018.org/index.html%3Fp=1558.html), 2018
-+ ACM SIGIR Student Travel Grant, 2018
-+ Excellent Graduates, University of Electronic Science and Technology of China, 2016

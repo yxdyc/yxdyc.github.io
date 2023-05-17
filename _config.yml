@@ -22,15 +22,15 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-social_links:
-    - platform: github  # same as SVG filename.
-      user_url: "https://github.com/yxdyc"  # URL of profile page.
+
+minima:
+   social_links:
+    - {platform: github, user_url: "https://github.com/yxdyc"}
 github_username: yxdyc
 
 # Build settings
 markdown: kramdown
 remote_theme: jekyll/minima
 plugins:
-  - jekyll-feed
 future: true
 minima.skin: auto

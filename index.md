@@ -24,16 +24,16 @@ Email: daoyuanchen.cdy AT alibaba-inc.com
 + B.E., 2012 - 2016, Computer Science and Technology, University of Electronic Science and Technology of China.
 
 ## Awards
-+ KDD Cup, AutoML Track, 4/149, 2020 ([our solution](https://github.com/joneswong/AutoGraph))
++ KDD Cup, AutoML-Graph Track, 4/149, 2020 ([our solution](https://github.com/joneswong/AutoGraph))
 + Excellent Graduates, Peking University, 2019
 + COLING Best Paper [Nominations](https://coling2018.org/index.html%3Fp=1558.html), 2018
 + ACM SIGIR Student Travel Grant, 2018
 + Excellent Graduates, University of Electronic Science and Technology of China, 2016
 
 
-## Articles ([Google Scholar](https://scholar.google.com/citations?hl=en&user=1GdfinUAAAAJ), [DBLP](https://dblp.org/pid/217/4891.html))
+## Articles [[Google Scholar](https://scholar.google.com/citations?hl=en&user=1GdfinUAAAAJ) | [DBLP](https://dblp.org/pid/217/4891.html)]
 
-+ **Daoyuan Chen**, Liuyi Yao, Dawei Gao, Yaliang Li, Bolin Ding. [Efficient Personalized Federated Learning via Sparse Model-Adaptation](https://github.com/yxdyc/yxdyc.github.io/blob/main/assets/ICML23_pFedGate.pdf). In *Proceedings of the International Conference on Machine Learning* (***ICML***), 2023.
++ **Daoyuan Chen**, Liuyi Yao, Dawei Gao, Yaliang Li, Bolin Ding. [Efficient Personalized Federated Learning via Sparse Model-Adaptation](https://arxiv.org/abs/2305.02776). In *Proceedings of the International Conference on Machine Learning* (***ICML***), 2023.
 + **Daoyuan Chen**, Wuchao Li, Yaliang Li, Bolin Ding, Kai Zeng, Defu Lian, Jingren Zhou. [Learned Index with Dynamic $\epsilon$](https://openreview.net/forum?id=UiaUEICawgw). In *Proceedings of the International Conference on Learning Representations* (***ICLR***), 2023.
 + **Daoyuan Chen**, Dawei Gao, Yuexiang Xie, Xuchen Pan, Zitao Li, Yaliang Li, Bolin Ding, Jingren Zhou. [FS-Real: Towards Real-World Cross-Device Federated Learning](https://arxiv.org/abs/2303.13363). In *Proceedings of the SIGKDD International Conference on Knowledge Discovery and Data Mining* (***KDD***), 2023.
 + Zeyu Qin, Liuyi Yao, **Daoyuan Chen**, Yaliang Li, Bolin Ding, Minhao Cheng. [Revisiting Personalized Federated Learning: Robustness Against Backdoor Attacks](https://arxiv.org/abs/2302.01677). In *Proceedings of the SIGKDD International Conference on Knowledge Discovery and Data Mining* (***KDD***), 2023

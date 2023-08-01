@@ -1,7 +1,9 @@
 ###### &nbsp;
 
 # Daoyuan Chen 
-I am currently a staff at Alibaba DAMO Academy. I'm interested in the research, systems and applications of efficient Machine Learning, Federated Learning and NLP.
+Hi there! I am currently a staff at Alibaba DAMO Academy. My interest largely lies in the research, systems, and their practical applications related to efficient Machine Learning, Federated Learning (FL), and NLP.
+
+I've published over 20 academic papers, a number of which I've led as the first author and were presented at top-tier conferences such as ICML, NeurIPS, ICLR, KDD, and ACL. In addition to this, I'm glad to have the opportunity to be founding/core contributor for several open-source projects, such as [Data-Juicer](https://github.com/alibaba/data-juicer) (a text processing system for Large Language Models), [FS-Real](https://github.com/alibaba/FederatedScope/tree/FSreal) (an enhanced system enables scalable cross-device FL on phones, cars, embedded boards), [pFL-Bench](https://github.com/alibaba/FederatedScope/tree/master/benchmark/pFL-Bench) (a comprehensive benchmark for personalized FL) and [FederatedScope](https://github.com/alibaba/FederatedScope) (an easy-to-use FL platform).
 
 Email: daoyuanchen.cdy AT alibaba-inc.com
 
@@ -55,3 +57,9 @@ Learning Platform. In *Proceedings of the International Conference on Very Large
 + Ying Shen, **Daoyuan Chen (co-first author)**, Min Yang, Yaliang Li, Nan Du, Kai Lei. [Ontology evaluation with path-based text-aware entropy computation.](https://dl.acm.org/doi/abs/10.1145/3209978.3210067) In *Proceedings of the International ACM SIGIR Conference on Research and Development in Information Retrieval* (***SIGIR***), 2018.
 + Ying Shen, **Daoyuan Chen**, Buzhou Tang, Min Yang, Kai Lei. [EAPB: entropy-aware path-based metric for ontology quality.](https://jbiomedsem.biomedcentral.com/articles/10.1186/s13326-018-0188-7) In *Journal of Biomedical Semantics*, 2018.
 + Ying Shen, Kaiqi Yuan, **Daoyuan Chen**, Joël Colloc, Min Yang, Yaliang Li, Kai Lei. [An ontology-driven clinical decision support system (IDDAP) for infectious disease diagnosis and antibiotic prescription.](https://pubmed.ncbi.nlm.nih.gov/29433958/) In *Artificial intelligence in medicine*, 2018.
+
+
+## Misc
+> Creativity is intelligence having fun.
+
+When it comes to leisure, I enjoy basketball, photography, playing the guitar, and listening to music - hip-hop being my genre of choice. 

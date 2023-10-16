@@ -1,9 +1,9 @@
 ###### &nbsp;
 
 # Daoyuan Chen 
-Hi there! I am currently a staff at Alibaba DAMO Academy. My interest largely lies in the research, systems, and their practical applications related to efficient Machine Learning, Federated Learning (FL), and NLP.
+Hi there! I am currently a staff at Alibaba DAMO Academy. My interest largely lies in the research, systems, and their practical applications related to efficient Machine Learning, Federated Learning (FL), and Large Language Models (LLMs).
 
-I've published over 20 academic papers, a number of which I've led as the first author and were presented at top-tier conferences such as ICML, NeurIPS, ICLR, KDD, and ACL. In addition to this, I'm glad to have the opportunity to be founding/core contributor for several open-source projects, such as [Data-Juicer](https://github.com/alibaba/data-juicer) (a data processing system for Large Language Models), [FS-Real](https://github.com/alibaba/FederatedScope/tree/FSreal) (an enhanced system enables scalable cross-device FL on phones, cars, embedded boards), [pFL-Bench](https://github.com/alibaba/FederatedScope/tree/master/benchmark/pFL-Bench) (a comprehensive benchmark for personalized FL) and [FederatedScope](https://github.com/alibaba/FederatedScope) (an easy-to-use FL platform).
+I've published over 20 academic papers, a number of which I've led as the first author and were presented at top-tier conferences such as ICML, NeurIPS, ICLR, KDD, and ACL. In addition to this, I'm glad to have the opportunity to be founding/core contributor for several open-source projects, such as [Data-Juicer](https://github.com/alibaba/data-juicer) (a data processing system for LLMs), [FS-Real](https://github.com/alibaba/FederatedScope/tree/FSreal) (an enhanced system enables scalable cross-device FL on phones and cars), [pFL-Bench](https://github.com/alibaba/FederatedScope/tree/master/benchmark/pFL-Bench) (a comprehensive benchmark for personalized FL) and [FederatedScope](https://github.com/alibaba/FederatedScope) (an easy-to-use FL platform).
 
 Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 
@@ -17,7 +17,8 @@ Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 
 ## Academic Services
 + Regular Reviewer: NeurIPS, ICML, ICLR, KDD, ACL, EMNLP, NAACL, CVPR, ICCV, IJCAI, CIKM, Expert Systems with Applications
-+ Tutorial organizer: [A Practical Introduction to Federated Learning](https://joneswong.github.io/KDD22FLTutorial/) (KDD 2022)
++ Tutorial Organizer: [A Practical Introduction to Federated Learning](https://joneswong.github.io/KDD22FLTutorial/) (KDD 2022)
++ Competition Organizer: FT-Data Ranker (data leaderboards for LLMs, [1B-Track](https://tianchi.aliyun.com/competition/entrance/532157), [7B-Track](https://tianchi.aliyun.com/competition/entrance/532158))
 
 
 ## Education
@@ -33,7 +34,7 @@ Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 + Excellent Graduates, University of Electronic Science and Technology of China, 2016
 
 
-## Articles [[Google Scholar](https://scholar.google.com/citations?hl=en&user=1GdfinUAAAAJ) | [DBLP](https://dblp.org/pid/217/4891.html)]
+## Articles [ [Google Scholar](https://scholar.google.com/citations?hl=en&user=1GdfinUAAAAJ) | [DBLP](https://dblp.org/pid/217/4891.html) ]
 + **Daoyuan Chen**, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao, Yuexiang Xie, Zhaoyang Liu, Jinyang Gao, Yaliang Li, Bolin Ding, Jingren Zhou. [Data-Juicer: A One-Stop Data Processing System for Large Language Models](https://arxiv.org/abs/2309.02033). *arXiv*, 2023
 + **Daoyuan Chen**, Liuyi Yao, Dawei Gao, Yaliang Li, Bolin Ding. [Efficient Personalized Federated Learning via Sparse Model-Adaptation](https://arxiv.org/abs/2305.02776). In *Proceedings of the International Conference on Machine Learning* (***ICML***), 2023.
 + **Daoyuan Chen**, Wuchao Li, Yaliang Li, Bolin Ding, Kai Zeng, Defu Lian, Jingren Zhou. [Learned Index with Dynamic $\epsilon$](https://openreview.net/forum?id=UiaUEICawgw). In *Proceedings of the International Conference on Learning Representations* (***ICLR***), 2023.

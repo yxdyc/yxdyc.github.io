@@ -15,8 +15,8 @@ Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 + Research Assistant, October 2016 - August 2017, Multimedia Software Engineering Research Center @ City University of Hong Kong
 
 
-## Academic Services
-+ Regular Reviewer: NeurIPS, ICML, ICLR, KDD, ACL, EMNLP, NAACL, CVPR, ICCV, IJCAI, CIKM, Expert Systems with Applications
+## Professional Activities
++ Regular Reviewer: NeurIPS, ICML, ICLR, KDD, ACL, EMNLP, NAACL, CVPR, ICCV, IJCAI, CIKM, Expert Systems with Applications, IEEE Transactions on Big Data
 + Tutorial Organizer: [A Practical Introduction to Federated Learning](https://joneswong.github.io/KDD22FLTutorial/) (KDD 2022)
 + Competition Organizer: FT-Data Ranker (data leaderboards for LLMs, [1B-Track](https://tianchi.aliyun.com/competition/entrance/532157), [7B-Track](https://tianchi.aliyun.com/competition/entrance/532158))
 

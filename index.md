@@ -3,7 +3,7 @@
 # Daoyuan Chen 
 Hi there! I am currently a staff at Alibaba DAMO Academy. My interest largely lies in the research, systems, and their practical applications related to efficient Machine Learning, Federated Learning (FL), and Large Language Models (LLMs).
 
-I've published over 20 academic papers, a number of which I've led as the first author and were presented at top-tier conferences such as ICML, NeurIPS, ICLR, KDD, SIGMOD and ACL. In addition to this, I'm glad to have the opportunity to be founding/core contributor for several open-source projects, such as [Data-Juicer](https://github.com/alibaba/data-juicer) (a data processing system for LLMs), [FS-Real](https://github.com/alibaba/FederatedScope/tree/FSreal) (an enhanced system enables scalable cross-device FL on phones and cars), [pFL-Bench](https://github.com/alibaba/FederatedScope/tree/master/benchmark/pFL-Bench) (a comprehensive benchmark for personalized FL), [FederatedScope](https://github.com/alibaba/FederatedScope) (an easy-to-use FL platform) and [AgentScope](https://github.com/modelscope/agentscope) (a multi-agent LLM platform).
+I've published over 20 academic papers, a number of which I've led as the first author and were presented at top-tier conferences such as ICML, NeurIPS, ICLR, KDD, SIGMOD and ACL. In addition to this, I'm glad to have the opportunity to be founding/core contributor for several open-source projects, such as [Data-Juicer](https://github.com/alibaba/data-juicer) & [DJ-SORA](https://github.com/alibaba/data-juicer/blob/main/docs/DJ_SORA.md) (one-stop multi-modal data processing for LLMs), [FS-Real](https://github.com/alibaba/FederatedScope/tree/FSreal) (an enhanced system enables scalable cross-device FL on phones and cars), [pFL-Bench](https://github.com/alibaba/FederatedScope/tree/master/benchmark/pFL-Bench) (a comprehensive benchmark for personalized FL), [FederatedScope](https://github.com/alibaba/FederatedScope) (an easy-to-use FL platform) and [AgentScope](https://github.com/modelscope/agentscope) (a multi-agent LLM platform).
 
 Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 
@@ -17,7 +17,7 @@ Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 
 ## Professional Activities
 + Conference PC/Reviewer: NeurIPS, ICML, ICLR, KDD, ACL, CVPR, EMNLP, NAACL, ICCV, ECCV, IJCAI, CIKM, COLM
-+ Journal PC/Reviewer:  Expert Systems with Applications, IEEE Transactions on Big Data, Artificial Intelligence In Medicine, Patterns
++ Journal PC/Reviewer:  Expert Systems with Applications, IEEE Transactions on Big Data, Artificial Intelligence In Medicine, Patterns, Neurocomputing,  Neural Networks
 + Tutorial Organizer: [A Practical Introduction to Federated Learning](https://joneswong.github.io/KDD22FLTutorial/) (KDD 2022)
 + Competition Organizer: data leaderboards for LLMs including [FT-Data Ranker](https://tianchi.aliyun.com/competition/entrance/532157) and [BetterMixture](https://tianchi.aliyun.com/competition/entrance/532174).
 
@@ -38,16 +38,17 @@ Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 ## Articles [ [Google Scholar](https://scholar.google.com/citations?hl=en&user=1GdfinUAAAAJ) | [DBLP](https://dblp.org/pid/217/4891.html) ]
  (# indicates equal contribution to first author; ^ indicates industrial mentor to first author.)
 
-### LLM (data, privacy-preserving fine-tuning)
+### LLM (data, privacy-preserving fine-tuning, systems)
 + **Daoyuan Chen**, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao, Yuexiang Xie, Zhaoyang Liu, Jinyang Gao, Yaliang Li, Bolin Ding, Jingren Zhou. [Data-Juicer: A One-Stop Data Processing System for Large Language Models](https://arxiv.org/abs/2309.02033). In *Proceedings of the International Conference on Management of Data* (***SIGMOD***), 2024, Industrial Track.
 + Jiamu Bai, **Daoyuan Chen**^#, Bingchen Qian, Liuyi Yao, Yaliang Li. [Federated Fine-tuning of Large Language Models under Heterogeneous Language Tasks and Client Resources](https://arxiv.org/abs/2402.11505). *arXiv*, 2024.
 + Zhenqing Ling, **Daoyuan Chen**^, Liuyi Yao, Yaliang Li, Ying Shen. [On the Convergence of Zeroth-Order Federated Tuning in Large Language Models](https://arxiv.org/abs/2402.05926). *arXiv*, 2024.
 + Qirui Jiao, **Daoyuan Chen**^, Yilun Huang, Yaliang Li, Ying Shen. [Enhancing Multimodal Large Language Models with Vision Detection Models: An Empirical Study](https://arxiv.org/abs/2401.17981). *arXiv*, 2024.
 + Mengsha Liu, **Daoyuan Chen**^, Yaliang Li, Guian Fang and Ying Shen. ChartThinker: A Contextual Chain-of-Thought Approach to Optimized Chart Summarization. In *Proceedings of the International Conference on Computational Linguistics* (***COLING***), 2024, [Dataset (596k chart-summarization pairs)](https://huggingface.co/datasets/ChartThinker/Chart-Sum-QA).
++ Dawei Gao, Zitao Li, Weirui Kuang, Xuchen Pan, **Daoyuan Chen**, Zhijian Ma, Bingchen Qian, Liuyi Yao, Lin Zhu, Chen Cheng, Hongzhu Shi, Yaliang Li, Bolin Ding, Jingren Zhou.  [AgentScope: A Flexible yet Robust Multi-Agent Platform](https://arxiv.org/abs/2402.14034) *arXiv*, 2024.
 + Zhen Qin, **Daoyuan Chen**^, Bingchen Qian, Bolin Ding, Yaliang Li, Shuiguang Deng. [Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18 Kilobytes](https://arxiv.org/abs/2312.06353). *arXiv*, 2023.
 + Weirui Kuang, Bingchen Qian, Zitao Li, **Daoyuan Chen**, Dawei Gao, Xuchen Pan, Yuexiang Xie, Yaliang Li, Bolin Ding, Jingren Zhou. [FederatedScope-LLM: A Comprehensive Package for Fine-tuning Large Language Models in Federated Learning](https://arxiv.org/abs/2309.00363). *arXiv*, 2023.
 
-### Federated Learning (on-device, personalization, system)
+### Federated Learning (on-device, personalization, systems)
 + **Daoyuan Chen**, Liuyi Yao, Dawei Gao, Yaliang Li, Bolin Ding. [Efficient Personalized Federated Learning via Sparse Model-Adaptation](https://arxiv.org/abs/2305.02776). In *Proceedings of the International Conference on Machine Learning* (***ICML***), 2023.
 + **Daoyuan Chen**, Dawei Gao, Yuexiang Xie, Xuchen Pan, Zitao Li, Yaliang Li, Bolin Ding, Jingren Zhou. [FS-Real: Towards Real-World Cross-Device Federated Learning](https://arxiv.org/abs/2303.13363). In *Proceedings of the SIGKDD International Conference on Knowledge Discovery and Data Mining* (***KDD***), 2023.
 + Dawei Gao, **Daoyuan Chen**#, Zitao Li, Yuexiang Xie, Xuchen Pan, Yaliang Li, Bolin Ding, Jingren Zhou. FS-Real: A Real-World Cross-Device Federated

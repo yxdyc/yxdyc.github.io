@@ -35,7 +35,7 @@ Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 + Excellent Graduates, University of Electronic Science and Technology of China, 2016
 
 
-## Selected Arti [ [Google Scholar](https://scholar.google.com/citations?hl=en&user=1GdfinUAAAAJ) | [DBLP](https://dblp.org/pid/217/4891.html) ]
+## Selected Works [ [Google Scholar](https://scholar.google.com/citations?hl=en&user=1GdfinUAAAAJ) | [DBLP](https://dblp.org/pid/217/4891.html) ]
  (# indicates equal contribution to the first author; ^ indicates industrial mentor to the first student author.)
 
 ### LLM (data, privacy-preserving fine-tuning, systems)
@@ -132,4 +132,4 @@ Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 ## Misc.
 > Creativity is intelligence having fun.
 
-When it comes to leisure, I enjoy basketball, photography, playing the guitar, and listening to music - hip-hop being my genre of choice. 
+When it comes to leisure, I enjoy basketball, photography, playing the guitar, and listening to music - R&B and hip-hop being my genre of choice. 

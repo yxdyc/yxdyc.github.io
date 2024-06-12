@@ -11,7 +11,7 @@ Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 ## Selected Papers [ [Google Scholar](https://scholar.google.com/citations?hl=en&user=1GdfinUAAAAJ) | [DBLP](https://dblp.org/pid/217/4891.html) ]
  (Remark: # indicates equal contribution to the first author; ^ indicates industrial mentor to the first student author.)
 
-### LLM (data, privacy-preserving fine-tuning, systems)
+### LLM (data, multimodal, systems)
 + [***SIGMOD'24***] [Data-Juicer: A One-Stop Data Processing System for Large Language Models](https://arxiv.org/abs/2309.02033)
     + **Daoyuan Chen**, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao, Yuexiang Xie, Zhaoyang Liu, Jinyang Gao, Yaliang Li, Bolin Ding, Jingren Zhou. 
     + In *Proceedings of the International Conference on Management of Data*, Industrial Track, 2024.
@@ -30,11 +30,14 @@ Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 + [***COLING'24***] [ChartThinker: A Contextual Chain-of-Thought Approach to Optimized Chart Summarization](https://arxiv.org/abs/2403.11236)
     +  Mengsha Liu, **Daoyuan Chen**^, Yaliang Li, Guian Fang and Ying Shen.
     + In *Proceedings of the International Conference on Computational Linguistics*, 2024
++ [*arXiv'24*] [Data Mixing Made Efficient: A Bivariate Scaling Law for Language Model Pretraining](https://arxiv.org/abs/2402.11505)
+    + Ce Ge, Zhijian Ma, **Daoyuan Chen**, Yaliang Li, Bolin Ding.
+    +  *arXiv*, 2024-05.
 + [*arXiv'24*] [Federated Fine-tuning of Large Language Models under Heterogeneous Language Tasks and Client Resources](https://arxiv.org/abs/2402.11505)
     + Jiamu Bai, **Daoyuan Chen**^#, Bingchen Qian, Liuyi Yao, Yaliang Li.
     +  *arXiv*, 2024-02.
 + [*arXiv'24*] [AgentScope: A Flexible yet Robust Multi-Agent Platform](https://arxiv.org/abs/2402.14034)
-    +  Dawei Gao, Zitao Li, Weirui Kuang, Xuchen Pan, **Daoyuan Chen**, Zhijian Ma, Bingchen Qian, Liuyi Yao, Lin Zhu, Chen Cheng, Hongzhu Shi, Yaliang Li, Bolin Ding, Jingren Zhou.
+    +  Dawei Gao, Zitao Li, Xuchen Pan, Weirui Kuang, Zhijian Ma, Bingchen Qian, Fei Wei, Wenhao Zhang, Yuexiang Xie, **Daoyuan Chen**, Liuyi Yao, Hongyi Peng, Zeyu Zhang, Lin Zhu, Chen Cheng, Hongzhu Shi, Yaliang Li, Bolin Ding, Jingren Zhou.
     +  *arXiv*, 2024-02.
 + [*arXiv'24*] [Enhancing Multimodal Large Language Models with Vision Detection Models: An Empirical Study](https://arxiv.org/abs/2401.17981)
     +  Qirui Jiao, **Daoyuan Chen**^, Yilun Huang, Yaliang Li, Ying Shen. 
@@ -94,7 +97,7 @@ Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 + [***COLING'18***] [Cooperative denoising for distantly supervised relation extraction](https://aclanthology.org/C18-1036)
     + Kai Lei, **Daoyuan Chen**#, Yaliang Li, Nan Du, Min Yang, Wei Fan, Ying Shen.
     + In *Proceedings of the International Conference on Computational Linguistics*, ***best paper [nominations](https://coling2018.org/index.html%3Fp=1558.html)***, 2018.
-+ [***SIGIR'18***] [Ontology evaluation with path-based text-aware entropy computation.](https://dl.acm.org/doi/abs/10.1145/3209978.3210067)
++ [***SIGIR'18***] [Ontology evaluation with path-based text-aware entropy computation](https://dl.acm.org/doi/abs/10.1145/3209978.3210067)
     + Ying Shen, **Daoyuan Chen**#, Min Yang, Yaliang Li, Nan Du, Kai Lei. 
     + In *Proceedings of the International ACM SIGIR Conference on Research and Development in Information Retrieval*, Short, 2018.
 + [*Journal (IF 7.5)*] [An ontology-driven clinical decision support system (IDDAP) for infectious disease diagnosis and antibiotic prescription](https://pubmed.ncbi.nlm.nih.gov/29433958/)
@@ -112,7 +115,7 @@ Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 + Conference PC/Reviewer: NeurIPS, ICML, ICLR, KDD, ACL, CVPR, EMNLP, NAACL, ICCV, ECCV, IJCAI, CIKM, COLM
 + Journal PC/Reviewer:  Expert Systems with Applications, Neurocomputing, Neural Networks, Patterns, IEEE Transactions on Big Data, Artificial Intelligence In Medicine 
 + Tutorial Organizer: KDD 2022, KDD 2024
-+ Competition Organizer: data leaderboards for LLMs including [FT-Data Ranker](https://tianchi.aliyun.com/competition/entrance/532157), [BetterMixture](https://tianchi.aliyun.com/competition/entrance/532174) and [ModelScope-Sora](https://tianchi.aliyun.com/competition/entrance/coming_soon)
++ Competition Organizer: data leaderboards for LLMs including [FT-Data Ranker](https://tianchi.aliyun.com/competition/entrance/532157), [BetterMixture](https://tianchi.aliyun.com/competition/entrance/532174) and [ModelScope-Sora](https://tianchi.aliyun.com/competition/entrance/532219)
 
 ## Education
 

@@ -30,6 +30,12 @@ Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 + [***COLING'24***] [ChartThinker: A Contextual Chain-of-Thought Approach to Optimized Chart Summarization](https://arxiv.org/abs/2403.11236)
     +  Mengsha Liu, **Daoyuan Chen**^, Yaliang Li, Guian Fang and Ying Shen.
     + In *Proceedings of the International Conference on Computational Linguistics*, 2024
++ [*arXiv'24*] [Data-Juicer Sandbox: A Comprehensive Suite for Multimodal Data-Model Co-development](https://arxiv.org/abs/2407.11784)
+    + **Daoyuan Chen**, Haibin Wang, Yilun Huang, Ce Ge, Yaliang Li, Bolin Ding, Jingren Zhou
+    +  *arXiv*, 2024-07.
++ [*arXiv'24*] [The Synergy between Data and Multi-Modal Large Language Models: A Survey from Co-Development Perspective](https://arxiv.org/abs/2407.08583)
+    + Zhen Qin, **Daoyuan Chen**^#, Wenhao Zhang, Liuyi Yao, Yilun Huang, Bolin Ding, Yaliang Li, Shuiguang Deng
+    +  *arXiv*, 2024-07.
 + [*arXiv'24*] [Data Mixing Made Efficient: A Bivariate Scaling Law for Language Model Pretraining](https://arxiv.org/abs/2402.11505)
     + Ce Ge, Zhijian Ma, **Daoyuan Chen**, Yaliang Li, Bolin Ding.
     +  *arXiv*, 2024-05.
@@ -115,7 +121,7 @@ Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 + Conference PC/Reviewer: NeurIPS, ICML, ICLR, KDD, ACL, CVPR, EMNLP, NAACL, ICCV, ECCV, IJCAI, CIKM, COLM
 + Journal PC/Reviewer:  Expert Systems with Applications, Neurocomputing, Neural Networks, Patterns, IEEE Transactions on Big Data, Artificial Intelligence In Medicine 
 + Tutorial Organizer: KDD 2022, KDD 2024
-+ Competition Organizer: data leaderboards for LLMs including [FT-Data Ranker](https://tianchi.aliyun.com/competition/entrance/532157), [BetterMixture](https://tianchi.aliyun.com/competition/entrance/532174) and [ModelScope-Sora](https://tianchi.aliyun.com/competition/entrance/532219)
++ Competition Organizer: data leaderboards for LLMs including [FT-Data Ranker](https://tianchi.aliyun.com/competition/entrance/532157), [BetterMixture](https://tianchi.aliyun.com/competition/entrance/532174), [ModelScope-Sora](https://tianchi.aliyun.com/competition/entrance/532219) and [Better Synth](https://tianchi.aliyun.com/competition/entrance/532251).
 
 ## Education
 

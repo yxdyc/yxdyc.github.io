@@ -1,11 +1,6 @@
 ###### &nbsp;
 
-
-#### Hi, this is Daoyuan Chen (陈道源) 
-
----
-
-I am currently a staff member at Data Analytics and Intelligence Lab, Alibaba Tongyi. My interest largely lies in the research, systems, and their practical applications related to efficient Machine Learning, Federated Learning (FL), Large Language Models (LLMs) and Multimodal Learning.
+Hi, I am currently a staff member at Data Analytics and Intelligence Lab, Alibaba Tongyi. My interest largely lies in the research, systems, and their practical applications related to efficient Machine Learning, Federated Learning (FL), Large Language Models (LLMs) and Multimodal Learning.
 
 I've published over 30 technical papers, a number of which I've led as the first author and were presented at top-tier conferences such as ICML, NeurIPS, ICLR, KDD, SIGMOD, ACL and SIGIR. In addition to this, I'm glad to have the opportunity to be founding/core contributor for several open-source projects, such as **[Data-Juicer](https://github.com/alibaba/data-juicer)** (a data processing system for any LLMs), [FederatedScope](https://github.com/alibaba/FederatedScope) (an easy-to-use FL platform) and [AgentScope](https://github.com/modelscope/agentscope) (a multi-agent LLM platform).
 
@@ -127,15 +122,15 @@ Remark: # indicates equal contribution to the first author; ^ indicates industri
 + Research Assistant, October 2016 - August 2017, Multimedia Software Engineering Research Center @ City University of Hong Kong
 
 ## Professional Activities
-+ Conference PC/Reviewer: NeurIPS, ICML, ICLR, KDD, ACL, CVPR, EMNLP, NAACL, ICCV, ECCV, IJCAI, CIKM, COLM
-+ Journal PC/Reviewer:  Expert Systems with Applications, Neurocomputing, Neural Networks, Patterns, IEEE Transactions on Big Data, Artificial Intelligence In Medicine 
++ Conference Reviewer: NeurIPS/ICML/ICLR (2022-2025), KDD (2021-2025), ACL/EMNLP/NAACL (2021-2024), CVPR/ICCV/ECCV (2023-2024), IJCAI/CIKM (2021-2022), COLM (2024)
++ Journal Reviewer:  Expert Systems with Applications, Neurocomputing, Neural Networks, Knowledge-Based Systems, IEEE Transactions on Big Data, Patterns, Artificial Intelligence (AIJ), Artificial Intelligence In Medicine
 + Tutorial Organizer: KDD 2022, KDD 2024
-+ Competition Organizer: data leaderboards for LLMs including [FT-Data Ranker](https://tianchi.aliyun.com/competition/entrance/532157), [BetterMixture](https://tianchi.aliyun.com/competition/entrance/532174), [ModelScope-Sora](https://tianchi.aliyun.com/competition/entrance/532219) and [Better Synth](https://tianchi.aliyun.com/competition/entrance/532251).
++ Competition Organizer: data leaderboards for LLMs including [FT-Data Ranker](https://tianchi.aliyun.com/competition/entrance/532157), [BetterMixture](https://tianchi.aliyun.com/competition/entrance/532174), [ModelScope-Sora](https://tianchi.aliyun.com/competition/entrance/532219) and [Better Synth](https://tianchi.aliyun.com/competition/entrance/532251)
 
 ## Education
 
-+ M.S., 2016 - 2019, Computer Application Technology, Peking University. (Supervised by [Kai Lei](https://dblp.org/pid/64/9060.html) & [Ying Shen](https://dblp.org/pid/01/8558-1.html)).
-+ B.E., 2012 - 2016, Computer Science and Technology, University of Electronic Science and Technology of China.
++ M.S., 2016 - 2019, Computer Application Technology, Peking University. (Supervised by [Kai Lei](https://dblp.org/pid/64/9060.html) & [Ying Shen](https://dblp.org/pid/01/8558-1.html))
++ B.E., 2012 - 2016, Computer Science and Technology, University of Electronic Science and Technology of China
 
 ## Awards
 + KDD Cup, AutoML-Graph Track, 4/149, 2020 ([our solution](https://github.com/joneswong/AutoGraph))

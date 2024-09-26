@@ -1,26 +1,35 @@
 ###### &nbsp;
 
-# Daoyuan Chen 
-Hi there! I am currently a staff at Data Analytics and Intelligence Lab, Alibaba Tongyi. My interest largely lies in the research, systems, and their practical applications related to efficient Machine Learning, Federated Learning (FL), Large Language Models (LLMs) and Multi-modal Learning.
 
-I've published over 30 technical papers, a number of which I've led as the first author and were presented at top-tier conferences such as ICML, NeurIPS, ICLR, KDD, SIGMOD, ACL and SIGIR. In addition to this, I'm glad to have the opportunity to be founding/core contributor for several open-source projects, such as [Data-Juicer](https://github.com/alibaba/data-juicer) & [DJ-SORA](https://github.com/alibaba/data-juicer/blob/main/docs/DJ_SORA.md) (one-stop multi-modal data processing for LLMs), [FS-Real](https://github.com/alibaba/FederatedScope/tree/FSreal) (an enhanced system enables scalable cross-device FL on phones and cars), [pFL-Bench](https://github.com/alibaba/FederatedScope/tree/master/benchmark/pFL-Bench) (a comprehensive benchmark for personalized FL), [FederatedScope](https://github.com/alibaba/FederatedScope) (an easy-to-use FL platform) and [AgentScope](https://github.com/modelscope/agentscope) (a multi-agent LLM platform).
+#### Hi, this is Daoyuan Chen (陈道源) 
 
-Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
+---
+
+I am currently a staff member at Data Analytics and Intelligence Lab, Alibaba Tongyi. My interest largely lies in the research, systems, and their practical applications related to efficient Machine Learning, Federated Learning (FL), Large Language Models (LLMs) and Multimodal Learning.
+
+I've published over 30 technical papers, a number of which I've led as the first author and were presented at top-tier conferences such as ICML, NeurIPS, ICLR, KDD, SIGMOD, ACL and SIGIR. In addition to this, I'm glad to have the opportunity to be founding/core contributor for several open-source projects, such as **[Data-Juicer](https://github.com/alibaba/data-juicer)** (a data processing system for any LLMs), [FederatedScope](https://github.com/alibaba/FederatedScope) (an easy-to-use FL platform) and [AgentScope](https://github.com/modelscope/agentscope) (a multi-agent LLM platform).
+
+
+Collaborations and internships are welcome! Contact: daoyuanchen.cdy[AT]alibaba-inc.com; chendaoyuan[AT]pku.edu.cn 
+
 
 
 ## Selected Papers [ [Google Scholar](https://scholar.google.com/citations?hl=en&user=1GdfinUAAAAJ) | [DBLP](https://dblp.org/pid/217/4891.html) ]
- (Remark: # indicates equal contribution to the first author; ^ indicates industrial mentor to the first student author.)
+Remark: # indicates equal contribution to the first author; ^ indicates industrial mentor to the first student author.
 
 ### LLM (data, multimodal, systems)
 + [***SIGMOD'24***] [Data-Juicer: A One-Stop Data Processing System for Large Language Models](https://arxiv.org/abs/2309.02033)
     + **Daoyuan Chen**, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao, Yuexiang Xie, Zhaoyang Liu, Jinyang Gao, Yaliang Li, Bolin Ding, Jingren Zhou. 
     + In *Proceedings of the International Conference on Management of Data*, Industrial Track, 2024.
++ [***KDD'24***] [Multi-modal Data Processing for Foundation Models: Practical Guidances and Use Cases](materials_coming_soon!)
+    +  **Daoyuan Chen**, Yaliang Li, Bolin Ding, The Data-Juicer Team
+    + In *Proceedings of the SIGKDD International Conference on Knowledge Discovery and Data Mining*, Hands-On Tutorial, 2024.
++ [***NeurIPS'24***] [Federated Fine-tuning of Large Language Models under Heterogeneous Language Tasks and Client Resources](https://arxiv.org/abs/2402.11505)
+    + Jiamu Bai, **Daoyuan Chen**^#, Bingchen Qian, Liuyi Yao, Yaliang Li.
+    +  In *Neural Information Processing Systems*, 2024.
 + [***ICML'24***] [Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18 Kilobytes](https://arxiv.org/abs/2312.06353)
     +  Zhen Qin, **Daoyuan Chen**^, Bingchen Qian, Bolin Ding, Yaliang Li, Shuiguang Deng. 
     +  In *Proceedings of the International Conference on Machine Learning*, 2024.
-+ [***KDD'24***] [Multi-modal Data Processing for Foundation Models: Practical Guidances and Use Cases](materials_coming_soon!)
-    +  **Daoyuan Chen**, Yaliang Li, Bolin Ding. 
-    + In *Proceedings of the SIGKDD International Conference on Knowledge Discovery and Data Mining*, Hands-On Tutorial, 2024.
 + [***KDD'24***] [On the Convergence of Zeroth-Order Federated Tuning in Large Language Models](https://arxiv.org/abs/2402.05926)
     + Zhenqing Ling, **Daoyuan Chen**^, Liuyi Yao, Yaliang Li, Ying Shen.
     + In *Proceedings of the SIGKDD International Conference on Knowledge Discovery and Data Mining*, Research Track, 2024.
@@ -33,15 +42,15 @@ Contact: daoyuanchen.cdy AT alibaba-inc.com; chendaoyuan AT pku.edu.cn
 + [*arXiv'24*] [Data-Juicer Sandbox: A Comprehensive Suite for Multimodal Data-Model Co-development](https://arxiv.org/abs/2407.11784)
     + **Daoyuan Chen**, Haibin Wang, Yilun Huang, Ce Ge, Yaliang Li, Bolin Ding, Jingren Zhou
     +  *arXiv*, 2024-07.
++ [*arXiv'24*] [Img-Diff: Contrastive Data Synthesis for Multimodal Large Language Models](https://arxiv.org/pdf/2408.04594)
+    +  Qirui Jiao, **Daoyuan Chen**^, Yilun Huang, Yaliang Li, Ying Shen. 
+    +  *arXiv*, 2024-08.
 + [*arXiv'24*] [The Synergy between Data and Multi-Modal Large Language Models: A Survey from Co-Development Perspective](https://arxiv.org/abs/2407.08583)
     + Zhen Qin, **Daoyuan Chen**^#, Wenhao Zhang, Liuyi Yao, Yilun Huang, Bolin Ding, Yaliang Li, Shuiguang Deng
     +  *arXiv*, 2024-07.
 + [*arXiv'24*] [Data Mixing Made Efficient: A Bivariate Scaling Law for Language Model Pretraining](https://arxiv.org/abs/2402.11505)
     + Ce Ge, Zhijian Ma, **Daoyuan Chen**, Yaliang Li, Bolin Ding.
     +  *arXiv*, 2024-05.
-+ [*arXiv'24*] [Federated Fine-tuning of Large Language Models under Heterogeneous Language Tasks and Client Resources](https://arxiv.org/abs/2402.11505)
-    + Jiamu Bai, **Daoyuan Chen**^#, Bingchen Qian, Liuyi Yao, Yaliang Li.
-    +  *arXiv*, 2024-02.
 + [*arXiv'24*] [AgentScope: A Flexible yet Robust Multi-Agent Platform](https://arxiv.org/abs/2402.14034)
     +  Dawei Gao, Zitao Li, Xuchen Pan, Weirui Kuang, Zhijian Ma, Bingchen Qian, Fei Wei, Wenhao Zhang, Yuexiang Xie, **Daoyuan Chen**, Liuyi Yao, Hongyi Peng, Zeyu Zhang, Lin Zhu, Chen Cheng, Hongzhu Shi, Yaliang Li, Bolin Ding, Jingren Zhou.
     +  *arXiv*, 2024-02.

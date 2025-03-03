@@ -617,7 +617,7 @@
 
           targetSection.querySelectorAll('ul > li').forEach(li => {
               if (li.parentElement.tagName === 'UL' && li.parentElement.style.listStyleType === 'none') {
-                  const itemId = `item-${globalIndex}`;
+                  const itemId = `paper-${globalIndex}`;
                   li.id = itemId;
 
                   const link = document.createElement('a');

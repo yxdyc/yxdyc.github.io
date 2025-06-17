@@ -36,6 +36,16 @@
       margin: 10px 10px 10px 10px;
     }
   </style>
+<style>
+  .note {
+    background-color: #f9f9f9;
+    border-left: 4px solid #333;
+    padding: 10px;
+    margin: 15px 0;
+    font-style: italic;
+    color: #333;
+  }
+</style>
 
   <style>
     blockquote {
@@ -50,6 +60,80 @@
       margin: 0;
     }
   </style>
+
+  <style>
+.filter-controls {
+  margin-bottom: 20px;
+}
+
+.filter-controls button {
+  margin-right: 10px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.filter-controls button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* .tag {
+  display: inline-block;
+  padding: 2px 8px;
+  margin: 2px;
+  border-radius: 12px;
+  background-color: #e9ecef;
+  cursor: pointer;
+} */
+
+.tag {
+  margin: 0.2em;
+  padding: 0.3em 0.6em;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #f0f0f0;
+}
+
+
+.tag.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.paper-item {
+  margin-bottom: 20px;
+  display: none;
+}
+
+.paper-item.visible {
+  display: block;
+}
+/* 
+#paper-list > h3 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+} */
+
+.paper-container {
+  margin-bottom: 1.5em;
+  display: none; /* 默认隐藏 */
+}
+
+.paper-container.visible {
+  display: block; /* 显示时可见 */
+}
+
+.paper-tags {
+  margin-top: 0.5em;
+  color: #666;
+}
+
+.paper-tags small {
+  font-style: italic;
+}
+
+</style>
 
 
   <!-- =======================================================
@@ -78,7 +162,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#about" style="font-weight: bold;">About</a></li>
-          <li><a class="nav-link scrollto" href="#research" style="font-weight: bold;">Selected Research</a></li>
+          <li><a class="nav-link scrollto" href="#research" style="font-weight: bold;">Selected Works</a></li>
           <li><a class="nav-link scrollto" href="#experience" style="font-weight: bold;">Working Experiences</a></li>
           <li><a class="nav-link scrollto" href="#activities" style="font-weight: bold;">Professional Activities</a>
           </li>
@@ -151,22 +235,44 @@
             <br>
             <p>
               I’ve learned a lot from the open-source community and am glad to have the opportunity to deeply engage
-              with several open-source projects:
+              with several interesting open-source projects.
             </p>
             <ul>
+              <p> As a maintainer and technical leader, I've contributed to: </p>
               <li>
                 •&emsp;<strong><a href="https://github.com/modelscope/data-juicer">Data-Juicer: </a></strong> <iframe
                   src="https://img.shields.io/github/stars/modelscope/data-juicer" . frameborder="0" scrolling="0"
                   width="105" height="20" title="GitHub">
-                </iframe>
+                </iframe> 
                 <ul>
                   <li>
                     Data
                     processing for and with foundation models.
                   </li>
+                </ul>
+              </li>
+
+              <li>
+                •&emsp;<a href="https://github.com/modelscope/trinity-rft">Trinity-RFT: </a> <iframe
+                  src="https://img.shields.io/github/stars/modelscope/trinity-rft" frameborder="0" scrolling="0"
+                  width="105" height="20" title="GitHub">
+                </iframe> 
+                <ul>
                   <li>
-                    Founder, maintainer; co-authored papers: [<a href="#paper-1">1</a>-<a href="#paper-9">9</a>, <a
-                      href="#paper-12">12</a>].
+                    Reinforcement fine-tuning towards self-evolving LLMs.
+                  </li>
+                </ul>
+              </li>
+
+              <p> As a contributor from the official team, I've also worked on: </p>
+              <li>
+                •&emsp;<a href="https://github.com/alibaba/FederatedScope">FederatedScope: </a> <iframe
+                  src="https://img.shields.io/github/stars/alibaba/FederatedScope" frameborder="0" scrolling="0"
+                  width="105" height="20" title="GitHub">
+                </iframe> 
+                <ul>
+                  <li>
+                    An easy-to-use FL platform for research and real-world applications.
                   </li>
                 </ul>
               </li>
@@ -175,47 +281,13 @@
                 •&emsp;<a href="https://github.com/modelscope/agentscope">AgentScope:</a>
                 <iframe src="https://img.shields.io/github/stars/modelscope/agentscope" frameborder="0" scrolling="0"
                   width="105" height="20" title="GitHub">
-                </iframe>
+                </iframe> 
                 <ul>
                   <li>
-                    A developer platform for LLM-empowered multi-agent applications. </li>
-                  <li>
-                    Committer; co-authored paper: [<a href="#paper-14">14</a>].
-                  </li>
+                    Agent-oriented programming for building LLM applications. </li>
                 </ul>
 
               </li>
-
-              <li>
-                •&emsp;<a href="https://github.com/modelscope/trinity-rft">Trinity-RFT: </a> <iframe
-                  src="https://img.shields.io/github/stars/modelscope/trinity-rft" frameborder="0" scrolling="0"
-                  width="105" height="20" title="GitHub">
-                </iframe>
-                <ul>
-                  <li>
-                    Reinforcement fine-tuning towards self-evolving agents.
-                  </li>
-                  <li>
-                    Founder, maintainer, committer; co-authored paper: [<a href="#paper-14">14</a>].
-                  </li>
-                </ul>
-              </li>
-
-              <li>
-                •&emsp;<a href="https://github.com/alibaba/FederatedScope">FederatedScope: </a> <iframe
-                  src="https://img.shields.io/github/stars/alibaba/FederatedScope" frameborder="0" scrolling="0"
-                  width="105" height="20" title="GitHub">
-                </iframe>
-                <ul>
-                  <li>
-                    An easy-to-use FL platform.
-                  </li>
-                  <li>
-                    Founder, committer; co-authored papers: [<a href="#paper-15">15</a>-<a href="#paper-26">26</a>].
-                  </li>
-                </ul>
-              </li>
-
             </ul>
           </div>
 
@@ -259,27 +331,294 @@
       </div>
     </section><!-- End About Section -->
 
+    <!-- ======= Dynamic Research Paper List Script ======= -->
 
+<script>
+const tags = {
+    'llm': 'Large Language Models',
+    'vlm': 'Vision Language Models',
+    'efficient': 'Efficient ML',
+    'data': 'Data- and Knowledge-Driven ML',
+    'human': 'Human-centric ML',
+    'fl': 'Federated Learning',
+    'bench': 'Benchmarks and Tutorials',
+    'sys': 'Systems and Tools',
+  };
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  const tagFilters = document.getElementById('tag-filters');
+  Object.entries(tags).forEach(([key, label]) => {
+    const tag = document.createElement('span');
+    tag.className = 'tag';
+    tag.dataset.tag = key;
+    tag.textContent = label;
+    tag.addEventListener('click', toggleTag);
+    tagFilters.appendChild(tag);
+  });
+
+  document.querySelectorAll('.filter-controls button').forEach(button => {
+    button.addEventListener('click', function() {
+      document.querySelectorAll('.filter-controls button').forEach(b => b.classList.remove('active'));
+      this.classList.add('active');
+      groupPapers(this.dataset.groupby);
+    });
+  });
+
+  groupPapers('topic');
+});
+
+function toggleTag(e) {
+  e.target.classList.toggle('active');
+  filterPapers();
+}
+
+function updateFilterTags(groupBy) {
+  const papers = document.querySelectorAll('.paper-item');
+  const tagFilters = document.getElementById('tag-filters');
+  tagFilters.innerHTML = ''; // 清空现有标签
+
+  if (groupBy === 'topic') {
+    // 话题分类保持原样
+    Object.entries(tags).forEach(([key, label]) => {
+      const count = Array.from(papers).filter(paper => 
+        paper.dataset.tags && paper.dataset.tags.split(',').includes(key)
+      ).length;
+      
+      const tag = document.createElement('span');
+      tag.className = 'tag';
+      tag.dataset.tag = key;
+      tag.textContent = `${label} (${count})`;
+      tag.addEventListener('click', toggleTag);
+      tagFilters.appendChild(tag);
+    });
+    
+  } else {
+    // 为其他分类创建唯一值列表并计数
+    const valueCounts = new Map();
+    papers.forEach(paper => {
+      const value = paper.dataset[groupBy];
+      valueCounts.set(value, (valueCounts.get(value) || 0) + 1);
+    });
+
+    // 根据groupBy类型排序
+    let sortedValues;
+    if (groupBy === 'year') {
+      // 年份从大到小排序
+      sortedValues = Array.from(valueCounts.keys()).sort((a, b) => parseInt(b) - parseInt(a));
+    } else {
+      // 其他类别按字母顺序排序
+      sortedValues = Array.from(valueCounts.keys()).sort();
+    }
+
+    sortedValues.forEach(value => {
+      const tag = document.createElement('span');
+      tag.className = 'tag';
+      tag.dataset.tag = value;
+      tag.textContent = `${value} (${valueCounts.get(value)})`;
+      tag.addEventListener('click', toggleTag);
+      tagFilters.appendChild(tag);
+    });
+  }
+}
+
+function groupPapers(groupBy) {
+  const papers = document.querySelectorAll('.paper-item');
+  const container = document.getElementById('paper-list');
+  
+  container.innerHTML = '';
+
+  if (groupBy === 'topic') {
+    const paperMap = new Map();
+    
+    papers.forEach(paper => {
+      const paperTags = paper.dataset.tags ? paper.dataset.tags.split(',') : ['undefined'];
+      const tagLabels = paperTags.map(tag => tags[tag] || tag);
+      
+      const paperContainer = document.createElement('div');
+      paperContainer.className = 'paper-container';
+      
+      const paperContent = document.createElement('div');
+      paperContent.className = 'paper-item';
+      Array.from(paper.attributes).forEach(attr => {
+        paperContent.setAttribute(attr.name, attr.value);
+      });
+      paperContent.innerHTML = paper.innerHTML;
+      
+      const tagsContainer = document.createElement('div');
+      tagsContainer.className = 'paper-tags';
+      tagsContainer.innerHTML = `<small>Topics: ${tagLabels.join(' | ')}</small>`;
+      
+      paperContainer.appendChild(tagsContainer);
+      paperContainer.appendChild(paperContent);
+      
+      // 使用年份和内容作为排序键
+      const sortKey = `${paper.dataset.year || '0000'}-${paper.innerHTML}`;
+      paperMap.set(sortKey, paperContainer);
+    });
+
+
+    
+    const groupList = document.createElement('ul');
+    // 按年份降序排序
+    Array.from(paperMap.entries())
+      .sort((a, b) => b[0].localeCompare(a[0])) // 按sortKey排序（年份降序）
+      .forEach(([_, paperContainer]) => {
+        groupList.appendChild(paperContainer);
+      });
+    
+    const groupTitle = document.createElement('h3');
+    // groupTitle.textContent = 'Papers by Topics';
+    groupTitle.textContent = '';
+    container.appendChild(groupTitle);
+
+    container.appendChild(groupList);
+
+  } else {
+    const groups = {};
+    papers.forEach(paper => {
+      const key = paper.dataset[groupBy];
+      if (!groups[key]) {
+        groups[key] = [];
+      }
+      const newPaper = document.createElement('div');
+      newPaper.className = 'paper-item';
+      Array.from(paper.attributes).forEach(attr => {
+        newPaper.setAttribute(attr.name, attr.value);
+      });
+      newPaper.innerHTML = paper.innerHTML;
+      groups[key].push({
+        element: newPaper,
+        year: parseInt(paper.dataset.year) || 0
+      });
+    });
+
+    let sortedEntries;
+    if (groupBy === 'year') {
+      // 年份从大到小排序
+      sortedEntries = Object.entries(groups).sort((a, b) => parseInt(b[0]) - parseInt(a[0]));
+    } else {
+      // 其他类别按字母顺序排序
+      sortedEntries = Object.entries(groups).sort();
+    }
+
+    sortedEntries.forEach(([key, paperList]) => {
+      const groupTitle = document.createElement('h3');
+      groupTitle.textContent = `${key} (${paperList.length})`;
+      container.appendChild(groupTitle);
+      
+      const groupList = document.createElement('ul');
+      // 在每个组内按年份排序
+      paperList
+        .sort((a, b) => b.year - a.year) // 按年份降序排序
+        .forEach(paper => groupList.appendChild(paper.element));
+      container.appendChild(groupList);
+    });
+  }
+
+  updateFilterTags(groupBy);
+  filterPapers();
+}
+
+ function filterPapers() {
+  const activeTags = Array.from(document.querySelectorAll('.tag.active')).map(tag => tag.dataset.tag);
+  const currentGroupBy = document.querySelector('.filter-controls button.active').dataset.groupby;
+  
+  // 获取所有组标题和论文容器
+  const groups = document.querySelectorAll('#paper-list > h3');
+  const paperContainers = document.querySelectorAll('.paper-container, .paper-item');
+  
+  if (activeTags.length === 0) {
+    // 如果没有选中的标签，显示所有内容
+    groups.forEach(group => group.style.display = 'block');
+    paperContainers.forEach(container => {
+      container.classList.add('visible');
+      if (container.classList.contains('paper-container')) {
+        container.querySelector('.paper-item').classList.add('visible');
+      }
+    });
+  } else {
+    // 遍历每个组标题
+    groups.forEach(groupTitle => {
+      const nextElement = groupTitle.nextElementSibling;
+      if (nextElement && nextElement.tagName === 'UL') {
+        // 检查这个组下是否有可见的论文
+        const groupPapers = nextElement.querySelectorAll('.paper-container, .paper-item');
+        let hasVisiblePapers = false;
+
+        groupPapers.forEach(container => {
+          const paper = container.classList.contains('paper-container') ? 
+                       container.querySelector('.paper-item') : 
+                       container;
+          
+          let isVisible;
+          if (currentGroupBy === 'topic') {
+            const paperTags = paper.dataset.tags ? paper.dataset.tags.split(',') : [];
+            isVisible = activeTags.some(tag => paperTags.includes(tag));
+          } else {
+            const paperValue = paper.dataset[currentGroupBy];
+            isVisible = activeTags.includes(paperValue);
+          }
+          
+          container.classList.toggle('visible', isVisible);
+          if (paper !== container) {
+            paper.classList.toggle('visible', isVisible);
+          }
+          
+          if (isVisible) {
+            hasVisiblePapers = true;
+          }
+        });
+
+        // 根据组内是否有可见的论文来决定是否显示组标题
+        groupTitle.style.display = hasVisiblePapers ? 'block' : 'none';
+      }
+    });
+  }
+}
+
+ </script>
 
     <!-- ======= Selected Research Section ======= -->
     <section id="research" class="faq">
       <div class="container">
+
         <div class="section-title">
           <h2>Selected</h2>
-          <p>Research
+          <p>Technical Works
           </p>
         </div>
-        <p>Full lists: <a href="https://scholar.google.com/citations?hl=en&amp;user=1GdfinUAAAAJ">Google Scholar</a> and
+        <p>Full paper lists: <a href="https://scholar.google.com/citations?hl=en&amp;user=1GdfinUAAAAJ">Google Scholar</a> and
           <a href="https://dblp.org/pid/217/4891.html">DBLP</a>
         </p>
 
-        <p>Remark: # indicates equal contribution to the first author; ^ indicates industrial mentor to the first
-          student author.</p>
+          <p  class="note">
+              You can click the buttons below to switch between different paper-grouping methods and different subgroups. 
+            </p>
+          <p  class="note">
+              The number in parentheses ('n') indicates the size of each subgroup; '#' indicates co-first author; '^' indicates industrial mentor to the first
+          student author.
+          </p>
 
-        <h4><b>(Multimodal) LLMs, Data-Driven & Human-Centric ML</b></h4>
-        <ul style="list-style-type:none;">
+  <div class="filter-controls mb-4">
+    <button class="btn btn-outline-primary active" data-groupby="topic">Group by Topics</button>
+    <button class="btn btn-outline-primary" data-groupby="conference">Group by Conference/Journal/Preprints</button>
+    <button class="btn btn-outline-primary" data-groupby="year">Group by Year</button>
+    <button class="btn btn-outline-primary" data-groupby="authors">Group by Contribution</button>
+  </div>
 
-          <li>(<strong><em>ICML’25</em></strong> <em style="color: rgb(102, 0, 255);">spotlight, top 2.6%</em>) <a
+    <div id="tag-filters" class="mb-4"></div>
+    <span class="badge badge-pill badge-secondary active mr-2" data-tag="topic"></span>
+
+        <!-- topic1: <h4><b>(Multimodal) LLMs, Data-Driven & Human-Centric ML</b></h4> -->
+        <ul id="paper-list" class="group-container">
+
+          <li class="paper-item" 
+            data-conference="ICML, NeurIPS, ICLR" 
+            data-year="2025" 
+            data-authors="First author, first position"
+            data-tags="vlm,llm,data,efficient,sys">
+            (<strong><em>ICML’25</em></strong> <em style="color: rgb(102, 0, 255);">spotlight, top 2.6%</em>) <a
               href="https://arxiv.org/abs/2407.11784"><strong> Data-Juicer Sandbox: A
                 Feedback-Driven Suite for Multimodal Data-Model Co-development</strong></a>
             <ul>
@@ -290,7 +629,12 @@
             </ul>
           </li>
           
-          <li>(<strong><em>TPAMI’25</strong>, survey</em>) <a href="https://arxiv.org/abs/2407.08583">
+          <li class="paper-item" 
+            data-conference="TPAMI, CVPR"  
+            data-year="2025" 
+            data-authors="First author, non-first position"
+            data-tags="llm,vlm,data,bench">
+              (<strong><em>TPAMI’25</strong>, survey</em>) <a href="https://arxiv.org/abs/2407.08583">
               <strong>The Synergy between Data and Multi-Modal Large Language Models: A Survey from Co-Development
                 Perspective</strong>
             </a>
@@ -304,7 +648,12 @@
             </ul>
           </li>
 
-          <li>(<em>arXiv’25</em>) <a href="https://arxiv.org/abs/2505.17826"><strong>
+          <li class="paper-item" 
+            data-conference="arXiv" 
+            data-year="2025" 
+            data-authors="First author, non-first position"
+            data-tags="llm,data,human,sys">
+          (<em>arXiv’25</em>) <a href="https://arxiv.org/abs/2505.17826"><strong>
                 Trinity-RFT: A General-Purpose and Unified Framework for Reinforcement Fine-Tuning of Large Language
                 Models
               </strong></a>
@@ -318,7 +667,12 @@
             </ul>
           </li>
 
-          <li>(<em>arXiv’25</em>) <a href="https://www.arxiv.org/abs/2505.16915"><strong>
+          <li class="paper-item" 
+            data-conference="arXiv" 
+            data-year="2025" 
+            data-authors="First author, non-first position"
+            data-tags="vlm,data,bench">
+          (<em>arXiv’25</em>) <a href="https://www.arxiv.org/abs/2505.16915"><strong>
                 DetailMaster: Can Your Text-to-Image Model Handle Long Prompts?</strong></a>
             <ul>
               <li>Qirui Jiao, <strong>Daoyuan Chen</strong>^#, Yilun Huang, Xika Lin, Ying Shen, Yaliang Li</li>
@@ -328,7 +682,12 @@
             </ul>
           </li>
 
-          <li>(<em>arXiv’25</em>) <a href="https://arxiv.org/abs/2503.09499"><strong>
+          <li class="paper-item" 
+            data-conference="arXiv" 
+            data-year="2025" 
+            data-authors="First author, non-first position"
+            data-tags="vlm,llm,data">
+          (<em>arXiv’25</em>) <a href="https://arxiv.org/abs/2503.09499"><strong>
                 MindGym: What Matters in Question Synthesis for Thinking-Centric Fine-Tuning?</strong></a>
             <ul>
               <li>Zhe Xu, <strong>Daoyuan Chen</strong>^#, Zhenqing Ling, Yaliang Li, Ying Shen</li>
@@ -337,7 +696,14 @@
               </li>
             </ul>
           </li>
-          <li>(<em>arXiv’25</em>) <a href="https://www.arxiv.org/abs/2502.04380"><strong>Diversity as a Reward:
+
+
+          <li class="paper-item" 
+            data-conference="arXiv" 
+            data-year="2025" 
+            data-authors="First author, non-first position"
+            data-tags="llm,data">
+          (<em>arXiv’25</em>) <a href="https://www.arxiv.org/abs/2502.04380"><strong>Diversity as a Reward:
                 Fine-Tuning LLMs on a Mixture of Domain-Undetermined Data</strong></a>
             <ul>
               <li>Zhenqing Ling, <strong>Daoyuan Chen</strong>^#, Liuyi Yao, Qianli Shen, Yaliang Li, Ying Shen</li>
@@ -345,7 +711,13 @@
                   performance across 7 benchmarks on SOTA LLMs with domain-undetermined data.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>CVPR’25</em></strong>) <a href="https://arxiv.org/pdf/2408.04594">
+
+          <li class="paper-item" 
+            data-conference="TPAMI, CVPR"  
+            data-year="2025" 
+            data-authors="Second Author"
+            data-tags="vlm,data">
+          (<strong><em>CVPR’25</em></strong>) <a href="https://arxiv.org/pdf/2408.04594">
               <strong>Img-Diff: Contrastive Data Synthesis for Multimodal Large Language Models</strong>
             </a>
             <ul>
@@ -355,7 +727,13 @@
                   differences focusing on fine-grained regions in images.</em></li>
             </ul>
           </li>
-          <li>(<em>arXiv’24</em>) <a href="https://arxiv.org/abs/2501.14755"><strong> Data-Juicer 2.0: Cloud-Scale
+
+          <li class="paper-item" 
+            data-conference="arXiv" 
+            data-year="2025" 
+            data-authors="First author, first position"
+            data-tags="llm,vlm,data,sys,efficient">
+          (<em>arXiv’24</em>) <a href="https://arxiv.org/abs/2501.14755"><strong> Data-Juicer 2.0: Cloud-Scale
                 Adaptive Data Processing for and with Foundation Models</strong></a>
             <ul>
               <li><strong>Daoyuan Chen</strong>, Yilun Huang, Xuchen Pan, Nana Jiang, Haibin Wang, Yilei Zhang, Ce Ge,
@@ -366,7 +744,13 @@
                   models.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>SIGMOD’24</em></strong>) <a href="https://arxiv.org/abs/2309.02033"><strong>Data-Juicer: A
+
+          <li class="paper-item" 
+            data-conference="KDD, SIGMOD, VLDB, TKDE" 
+            data-year="2024" 
+            data-authors="First author, first position"
+            data-tags="llm,data,sys,efficient">
+          (<strong><em>SIGMOD’24</em></strong>) <a href="https://arxiv.org/abs/2309.02033"><strong>Data-Juicer: A
                 One-Stop Data Processing System for Large Language Models</strong></a>
             <ul>
               <li><strong>Daoyuan Chen</strong>, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao,
@@ -377,7 +761,13 @@
                 </em></li>
             </ul>
           </li>
-          <li>(<strong><em>KDD’24, tutorial</em></strong>) <a
+
+          <li class="paper-item" 
+            data-conference="KDD, SIGMOD, VLDB, TKDE" 
+            data-year="2024" 
+            data-authors="First author, first position"
+            data-tags="llm,data,sys,vlm,bench">
+            (<strong><em>KDD’24, tutorial</em></strong>) <a
               href="https://modelscope.github.io/data-juicer/_static/tutorial_kdd24.html"><strong>Multi-modal Data
                 Processing for Foundation Models: Practical Guidances and Use Cases</strong></a>
             <ul>
@@ -386,7 +776,13 @@
                   quality, and scale for foundation models.</em></li>
             </ul>
           </li>
-          <li>(<em>arXiv’24, benchmark</em>) <a href="https://www.arxiv.org/abs/2502.04380">
+
+          <li class="paper-item" 
+            data-conference="arXiv" 
+            data-year="2024" 
+            data-authors="Second Author"
+            data-tags="vlm,data,bench,human">
+          (<em>arXiv’24, benchmark</em>) <a href="https://www.arxiv.org/abs/2502.04380">
               <strong>HumanVBench: Exploring Human-Centric Video Understanding Capabilities of MLLMs with Synthetic
                 Benchmark Data</strong>
             </a>
@@ -396,7 +792,13 @@
                   manifestations, advancing human-like understanding in video perception.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>COLING’24</em></strong>) <a href="https://arxiv.org/abs/2403.11236"><strong>ChartThinker: A
+
+          <li class="paper-item" 
+            data-conference="SIGIR, ACL, COLING, CIKM"  
+            data-year="2024" 
+            data-authors="Second Author"
+            data-tags="vlm,data,human">
+          (<strong><em>COLING’24</em></strong>) <a href="https://arxiv.org/abs/2403.11236"><strong>ChartThinker: A
                 Contextual Chain-of-Thought Approach to Optimized Chart Summarization</strong></a>
             <ul>
               <li>Mengsha Liu, <strong>Daoyuan Chen</strong>^, Yaliang Li, Guian Fang and Ying Shen.</li>
@@ -404,7 +806,13 @@
                   superior performance across multiple metrics.</em></li>
             </ul>
           </li>
-          <li>(<em>arXiv’24</em>) <a href="https://arxiv.org/abs/2401.17981">
+
+          <li class="paper-item" 
+            data-conference="arXiv" 
+            data-year="2024" 
+            data-authors="Second Author"
+            data-tags="vlm,data">
+          (<em>arXiv’24</em>) <a href="https://arxiv.org/abs/2401.17981">
               <strong>From Training-Free to Adaptive: Empirical Insights into MLLMs' Understanding of Detection
                 Information</strong>
             </a>
@@ -417,7 +825,12 @@
             </ul>
           </li>
 
-          <li>(<em>arXiv’24</em>) <a href="https://arxiv.org/abs/2402.11505">
+          <li class="paper-item" 
+            data-conference="arXiv" 
+            data-year="2024" 
+            data-authors="Subsequent Author"
+            data-tags="llm,data">
+          (<em>arXiv’24</em>) <a href="https://arxiv.org/abs/2402.11505">
               <strong>A Bivariate Data Mixing Law for Language Model Pretraining</strong>
             </a>
             <ul>
@@ -427,7 +840,12 @@
             </ul>
           </li>
 
-          <li>(<em>arXiv’24</em>) <a href="https://arxiv.org/abs/2412.12888">
+          <li class="paper-item" 
+            data-conference="arXiv" 
+            data-year="2024" 
+            data-authors="Subsequent Author"
+            data-tags="vlm,data,human">
+          (<em>arXiv’24</em>) <a href="https://arxiv.org/abs/2412.12888">
               <strong> ArtAug: Enhancing Text-to-Image Generation through Synthesis-Understanding Interaction</strong>
             </a>
             <ul>
@@ -439,7 +857,13 @@
                   improving aesthetics and efficiency without extra inference costs.</em></li>
             </ul>
           </li>
-          <li>(<em>arXiv’24</em>) <a href="https://arxiv.org/abs/2402.14034">
+
+          <li class="paper-item" 
+            data-conference="arXiv" 
+            data-year="2024" 
+            data-authors="Subsequent Author"
+            data-tags="llm,sys">
+          (<em>arXiv’24</em>) <a href="https://arxiv.org/abs/2402.14034">
               <strong>AgentScope: A Flexible yet Robust Multi-Agent Platform</strong>
             </a>
             <ul>
@@ -450,11 +874,16 @@
                   way.</em></li>
             </ul>
           </li>
-        </ul>
+        <!-- </ul> -->
+        <!-- topic2: <h4 id="federated-learning-on-device-personalization-systems"> FL+LLM, On-device & Personalized FL</h4> -->
+        <!-- <ul style="list-style-type:none;"> -->
 
-        <h4 id="federated-learning-on-device-personalization-systems"> FL+LLM, On-device & Personalized FL</h4>
-        <ul style="list-style-type:none;">
-          <li>(<em>arXiv’25</em>) <a href="https://arxiv.org/abs/2506.02961">
+          <li class="paper-item" 
+            data-conference="arXiv" 
+            data-year="2025" 
+            data-authors="Subsequent Author"
+            data-tags="llm,bench">
+          (<em>arXiv’25</em>) <a href="https://arxiv.org/abs/2506.02961">
               <strong>FlowerTune: A Cross-Domain Benchmark for Federated Fine-Tuning of Large Language Models
 </strong>
             </a>
@@ -463,7 +892,12 @@
             </ul>
           </li>
 
-          <li>(<strong><em>NeurIPS’24</em></strong>) <a href="https://arxiv.org/abs/2402.11505"><strong>Federated
+          <li class="paper-item" 
+            data-conference="ICML, NeurIPS, ICLR" 
+            data-year="2024" 
+            data-authors="First author, non-first position"
+            data-tags="llm,data,fl">
+          (<strong><em>NeurIPS’24</em></strong>) <a href="https://arxiv.org/abs/2402.11505"><strong>Federated
                 Fine-tuning of Large Language Models under Heterogeneous Language Tasks and Client
                 Resources</strong></a>
             <ul>
@@ -473,7 +907,13 @@
                   tasks.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>ICML’24</em></strong>) <a href="https://arxiv.org/abs/2312.06353">
+
+            <li class="paper-item" 
+            data-conference="ICML, NeurIPS, ICLR" 
+            data-year="2024" 
+            data-authors="First author, non-first position"
+            data-tags="llm,fl,efficient">
+          (<strong><em>ICML’24</em></strong>) <a href="https://arxiv.org/abs/2312.06353">
               <strong>
                 Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18
                 Kilobytes</strong>
@@ -485,7 +925,13 @@
                   communication cost per round for a 3B LLM, meanwhile delivering SOTA accuracy.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>KDD’24</em></strong>) <a href="https://arxiv.org/abs/2402.05926">
+
+          <li class="paper-item" 
+            data-conference="KDD, SIGMOD, VLDB, TKDE" 
+            data-year="2024" 
+            data-authors="Second Author"
+            data-tags="llm,fl,efficient">
+          (<strong><em>KDD’24</em></strong>) <a href="https://arxiv.org/abs/2402.05926">
               <strong>
                 On the Convergence of Zeroth-Order Federated Tuning in Large Language Models
               </strong>
@@ -497,8 +943,16 @@
                   memory usage, backed by theoretical analysis and empirical validation.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>KDD’24</em></strong>) <a href="https://arxiv.org/abs/2309.00363">FederatedScope-LLM: A
-              Comprehensive Package for Fine-tuning Large Language Models in Federated Learning</a>
+
+          <li class="paper-item" 
+            data-conference="KDD, SIGMOD, VLDB, TKDE" 
+            data-year="2024" 
+            data-authors="Subsequent Author"
+            data-tags="llm,fl,sys">
+          (<strong><em>KDD’24</em></strong>) <a href="https://arxiv.org/abs/2309.00363"> 
+            <strong>FederatedScope-LLM: A
+              Comprehensive Package for Fine-tuning Large Language Models in Federated Learning </strong>
+            </a>
             <ul>
               <li>Weirui Kuang, Bingchen Qian, Zitao Li, <strong>Daoyuan Chen</strong>, Dawei Gao, Xuchen Pan,
                 Yuexiang
@@ -506,7 +960,13 @@
               <li><em>A new package designed to address the challenges of fine-tuning LLMs in FL.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>TKDE’24</em></strong>) <a href="https://dl.acm.org/doi/10.1109/TKDE.2024.3482448">
+
+          <li class="paper-item" 
+            data-conference="KDD, SIGMOD, VLDB, TKDE"
+            data-year="2024" 
+            data-authors="Subsequent Author"
+            data-tags="fl">
+          (<strong><em>TKDE’24</em></strong>) <a href="https://dl.acm.org/doi/10.1109/TKDE.2024.3482448">
               <strong>Is Sharing Neighbor Generator in Federated Graph Learning Safe? </strong>
             </a>
             <ul>
@@ -516,7 +976,13 @@
                   attacks, highlighting the need for defense strategies.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>ICML’23</em></strong>) <a href="https://arxiv.org/abs/2305.02776">
+
+          <li class="paper-item" 
+            data-conference="ICML, NeurIPS, ICLR" 
+            data-year="2023" 
+            data-authors="First author, first position"
+            data-tags="llm,fl,efficient">
+          (<strong><em>ICML’23</em></strong>) <a href="https://arxiv.org/abs/2305.02776">
               <strong>Efficient Personalized Federated Learning via Sparse Model-Adaptation</strong>
             </a>
             <ul>
@@ -525,7 +991,13 @@
                   and achieves SOTA accuracy with improved efficiency simultaneously.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>KDD’23</em></strong>) <a href="https://arxiv.org/abs/2303.13363">
+
+          <li class="paper-item" 
+            data-conference="KDD, SIGMOD, VLDB, TKDE" 
+            data-year="2023" 
+            data-authors="First author, first position"
+            data-tags="fl,efficient,sys">
+          (<strong><em>KDD’23</em></strong>) <a href="https://arxiv.org/abs/2303.13363">
               <strong>FS-Real: Towards Real-World Cross-Device Federated Learning</strong>
             </a>
             <ul>
@@ -536,7 +1008,13 @@
                   heterogeneous devices and large-scale training.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>VLDB’23</em></strong>) <a href="https://bolinding.github.io/papers/vldb23fsreal.pdf">
+
+          <li class="paper-item" 
+            data-conference="KDD, SIGMOD, VLDB, TKDE" 
+            data-year="2023" 
+            data-authors="First author, non-first position"
+            data-tags="fl,efficient,sys">
+          (<strong><em>VLDB’23</em></strong>) <a href="https://bolinding.github.io/papers/vldb23fsreal.pdf">
               <strong>FS-Real: A Real-World Cross-Device Federated Learning Platform</strong>
             </a>
             <ul>
@@ -546,7 +1024,13 @@
               <li><em>Industrial use-cases of FS-Real, including phones and cars.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>KDD’23</em></strong>) <a href="https://arxiv.org/abs/2302.01677">
+
+          <li class="paper-item" 
+            data-conference="KDD, SIGMOD, VLDB, TKDE" 
+            data-year="2023" 
+            data-authors="Subsequent Author"
+            data-tags="fl">
+          (<strong><em>KDD’23</em></strong>) <a href="https://arxiv.org/abs/2302.01677">
               <strong>Revisiting Personalized Federated Learning: Robustness Against Backdoor Attacks</strong>
             </a>
             <ul>
@@ -556,7 +1040,13 @@
                   model-sharing, offering insights for improved defense strategies.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>VLDB’23</em></strong>) <a href="https://arxiv.org/abs/2204.05011">
+
+          <li class="paper-item" 
+            data-conference="KDD, SIGMOD, VLDB, TKDE" 
+            data-year="2023" 
+            data-authors="Subsequent Author"
+            data-tags="fl,sys">
+          (<strong><em>VLDB’23</em></strong>) <a href="https://arxiv.org/abs/2204.05011">
               <strong>FederatedScope: A Flexible Federated Learning Platform for Heterogeneity</strong>
             </a>
             <ul>
@@ -565,7 +1055,13 @@
               <li><em>An open package for FL research and development.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>NeurIPS’22, benchmark</em></strong>) <a href="https://arxiv.org/abs/2206.03655">
+
+          <li class="paper-item" 
+            data-conference="ICML, NeurIPS, ICLR" 
+            data-year="2022" 
+            data-authors="First author, first position"
+            data-tags="fl,efficient,bench">
+          (<strong><em>NeurIPS’22, benchmark</em></strong>) <a href="https://arxiv.org/abs/2206.03655">
               <strong>pFL-Bench: A Comprehensive Benchmark for Personalized Federated Learning</strong>
             </a>
             <ul>
@@ -574,7 +1070,13 @@
                   evaluation with highlighted benefits and potential of pFL.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>KDD’22, tutorial</em></strong>) <a href="https://joneswong.github.io/KDD22FLTutorial/">
+
+          <li class="paper-item" 
+            data-conference="KDD, SIGMOD, VLDB, TKDE" 
+            data-year="2022" 
+            data-authors="Subsequent Author"
+            data-tags="fl,bench">  
+          (<strong><em>KDD’22, tutorial</em></strong>) <a href="https://joneswong.github.io/KDD22FLTutorial/">
               <strong>A Practical Introduction to Federated Learning</strong>
             </a>
             <ul>
@@ -584,12 +1086,18 @@
               <li><em>Hands-on lessons on FL and FS package.</em></li>
             </ul>
           </li>
-        </ul>
+        <!-- </ul> -->
 
-        <h4 id="efficient-machine-learning-adaptiveness-dynamics-applications">Efficient, Adaptive, & Knowledge-Driven
+        <!-- <h4 id="efficient-machine-learning-adaptiveness-dynamics-applications">Efficient, Adaptive, & Knowledge-Driven
           ML</h4>
-        <ul style="list-style-type:none;">
-          <li>(<strong><em>SIGIR’24</em></strong>) <a href="https://arxiv.org/abs/2404.02505">
+        <ul style="list-style-type:none;"> -->
+
+          <li class="paper-item" 
+            data-conference="SIGIR, ACL, COLING, CIKM" 
+            data-year="2024" 
+            data-authors="Second Author"
+            data-tags="efficient,human">
+          (<strong><em>SIGIR’24</em></strong>) <a href="https://arxiv.org/abs/2404.02505">
               <strong>Dynamic Demonstration
                 Retrieval and Cognitive Understanding for Emotional Support Conversation</strong>
             </a>
@@ -599,7 +1107,13 @@
                   comprehending implicit mental states.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>ICLR’23</em></strong>) <a href="https://openreview.net/forum?id=UiaUEICawgw">
+
+          <li class="paper-item" 
+            data-conference="ICML, NeurIPS, ICLR" 
+            data-year="2023" 
+            data-authors="First author, first position"
+            data-tags="efficient,sys">
+          (<strong><em>ICLR’23</em></strong>) <a href="https://openreview.net/forum?id=UiaUEICawgw">
               <strong>Learned Index with Dynamic $\epsilon$</strong>
             </a>
             <ul>
@@ -610,7 +1124,13 @@
                   methods.</em></li>
             </ul>
           </li>
-          <li>(<em>TNNLS, 2023, IF 10.4</em>) <a href="https://pubmed.ncbi.nlm.nih.gov/34752410/">
+
+          <li class="paper-item" 
+            data-conference="TNNLS, IJCAI, AAAI, AIMedicine"  
+            data-year="2023" 
+            data-authors="Subsequent Author"
+            data-tags="fl,efficient">
+          (<em>TNNLS, 2023, IF 10.4</em>) <a href="https://pubmed.ncbi.nlm.nih.gov/34752410/">
               <strong>Knowledge-Based
                 Reasoning Network for Relation Detection</strong>
             </a>
@@ -618,7 +1138,13 @@
               <li>Ying Shen, Min Yang, Yaliang Li, Dong Wang, Haitao Zheng, <strong>Daoyuan Chen</strong>.</li>
             </ul>
           </li>
-          <li>(<strong><em>ACL’20</em></strong>) <a href="https://arxiv.org/abs/2004.09930">
+
+          <li class="paper-item" 
+            data-conference="SIGIR, ACL, COLING, CIKM" 
+            data-year="2020" 
+            data-authors="First author, first position"
+            data-tags="efficient,data">
+          (<strong><em>ACL’20</em></strong>) <a href="https://arxiv.org/abs/2004.09930">
               <strong>Relabel the noise: joint
                 extraction of entities and relations via cooperative multiagents</strong>
             </a>
@@ -630,7 +1156,13 @@
                 </em></li>
             </ul>
           </li>
-          <li>(<strong><em>IJCAI’20</em></strong>) <a href="https://arxiv.org/abs/2001.04246">
+
+          <li class="paper-item" 
+            data-conference="TNNLS, IJCAI, AAAI, AIMedicine"   
+            data-year="2020" 
+            data-authors="First author, first position"
+            data-tags="efficient">
+          (<strong><em>IJCAI’20</em></strong>) <a href="https://arxiv.org/abs/2001.04246">
               <strong>Adabert: Task-adaptive
                 bert compression with differentiable neural architecture search</strong>
             </a>
@@ -642,14 +1174,26 @@
                   achieving faster inference and smaller size while maintaining performance.</em></li>
             </ul>
           </li>
-          <li>(<strong><em>CIKM’20</em></strong>) <a href="https://dl.acm.org/doi/10.1145/3340531.3411989">
+
+          <li class="paper-item" 
+            data-conference="SIGIR, ACL, COLING, CIKM"  
+            data-year="2020" 
+            data-authors="First author, first position"
+            data-tags="data">
+          (<strong><em>CIKM’20</em></strong>) <a href="https://dl.acm.org/doi/10.1145/3340531.3411989">
               <strong>An Adaptive
                 Embedding Framework for Heterogeneous Information Networks</strong></a>
             <ul>
               <li><strong>Daoyuan Chen</strong>, Yaliang Li, Bolin Ding, Ying Shen.</li>
             </ul>
           </li>
-          <li>(<strong><em>AAAI’20</em></strong>) <a href="https://arxiv.org/abs/1911.09801">
+
+          <li class="paper-item" 
+            data-conference="TNNLS, IJCAI, AAAI, AIMedicine"   
+            data-year="2020" 
+            data-authors="Subsequent Author"
+            data-tags="efficient,data">
+          (<strong><em>AAAI’20</em></strong>) <a href="https://arxiv.org/abs/1911.09801">
               <strong>Joint learning of answer
                 selection and answer summary generation in community question answering</strong></a>
             <ul>
@@ -657,22 +1201,36 @@
               </li>
             </ul>
           </li>
-          <li>(<strong><em>CIKM’19</em></strong>) <a href="https://dl.acm.org/doi/10.1145/3357384.3358071">
+
+          <li class="paper-item" 
+            data-conference="SIGIR, ACL, COLING, CIKM"  
+            data-year="2019" 
+            data-authors="First author, first position"
+            data-tags="data">(<strong><em>CIKM’19</em></strong>) <a href="https://dl.acm.org/doi/10.1145/3357384.3358071">
               <strong>Knowledge-aware textual entailment with graph
                 attention network</strong></a>
             <ul>
               <li><strong>Daoyuan Chen</strong>, Yaliang Li, Min Yang, Hai-Tao Zheng, Ying Shen.</li>
             </ul>
           </li>
-          <li>(<strong><em>SIGIR’19</em></strong>) <a href="https://dl.acm.org/doi/abs/10.1145/3331184.3331328">
+
+          <li class="paper-item" 
+            data-conference="SIGIR, ACL, COLING, CIKM" 
+            data-year="2019" 
+            data-authors="First author, first position"
+            data-tags="data">(<strong><em>SIGIR’19</em></strong>) <a href="https://dl.acm.org/doi/abs/10.1145/3331184.3331328">
               <strong>Answer-enhanced Path-aware Relation Detection
                 over Knowledge Base</strong></a>
             <ul>
               <li><strong>Daoyuan Chen</strong>, Min Yang, Hai-Tao Zheng, Yaliang Li, Ying Shen.</li>
             </ul>
           </li>
-
-          <li>(<strong>COLING’18</strong>, <strong><em style="color: rgb(102, 0, 255);"><a
+          
+          <li class="paper-item" 
+            data-conference="SIGIR, ACL, COLING, CIKM"  
+            data-year="2018" 
+            data-authors="First author, non-first position"
+            data-tags="efficient,data">(<strong>COLING’18</strong>, <strong><em style="color: rgb(102, 0, 255);"><a
                   href="https://coling2018.org/index.html%3Fp=1558.html" style="color: rgb(102, 0, 255);">best paper
                   nominations</a></em></strong>) <a href="https://aclanthology.org/C18-1036">
               <strong>Cooperative denoising
@@ -682,7 +1240,11 @@
             </ul>
           </li>
 
-          <li>(<strong><em>SIGIR’18</em></strong>)
+          <li class="paper-item" 
+            data-conference="SIGIR, ACL, COLING, CIKM" 
+            data-year="2018" 
+            data-authors="First author, non-first position"
+            data-tags="data">(<strong><em>SIGIR’18</em></strong>)
             <a href="https://dl.acm.org/doi/abs/10.1145/3209978.3210067">
               <strong>Ontology
                 evaluation with path-based text-aware entropy computation</strong>
@@ -691,7 +1253,12 @@
               <li>Ying Shen, <strong>Daoyuan Chen</strong>#, Min Yang, Yaliang Li, Nan Du, Kai Lei.</li>
             </ul>
           </li>
-          <li>(<em>Artificial intelligence in medicine, 2018, IF 7.5</em>) <a
+          
+          <li class="paper-item" 
+            data-conference="TNNLS, IJCAI, AAAI, AIMedicine"  
+            data-year="2018" 
+            data-authors="Subsequent Author"
+            data-tags="data,human,system">(<em>Artificial intelligence in medicine, 2018, IF 7.5</em>) <a
               href="https://pubmed.ncbi.nlm.nih.gov/29433958/">
               <strong>An ontology-driven clinical decision support system
                 (IDDAP) for infectious disease diagnosis and antibiotic prescription</strong>
@@ -706,7 +1273,7 @@
     </section>
 
     <!-- ===== Dynamic Update on Paper Index ===== -->
-    <script>
+    <!-- <script>
       const targetSection = document.querySelector('#research.faq');
       if (targetSection) {
         let globalIndex = 1;
@@ -726,7 +1293,7 @@
           }
         });
       }
-    </script>
+    </script> -->
     <!-- Dynamic Update on Paper Index -->
 
 

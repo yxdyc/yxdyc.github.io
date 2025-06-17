@@ -151,7 +151,7 @@ ul.no-bullets {
   border-radius: 50px;
 }
 .navbar a i, .navbar a:focus i {
-  font-size: 12px;
+  font-size: 10px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -180,10 +180,10 @@ ul.no-bullets {
   padding: 10px 20px;
   color: #2a2c39;
   margin: 0 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .navbar .dropdown ul a i {
-  font-size: 12px;
+  font-size: 10px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: #fff;

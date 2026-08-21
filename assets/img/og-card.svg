@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#142b45"/>
+      <stop offset="1" stop-color="#1a6d78"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.24" r="0.72">
+      <stop offset="0" stop-color="#e9bd73" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#e9bd73" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <path d="M0 520 C260 430 400 640 680 525 C875 445 990 455 1200 535 L1200 630 L0 630 Z" fill="#ffffff" fill-opacity="0.08"/>
+  <path d="M0 555 C240 475 435 650 710 550 C930 470 1070 520 1200 565" fill="none" stroke="#8ed6d4" stroke-opacity="0.5" stroke-width="3"/>
+  <text x="86" y="162" fill="#8ed6d4" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">DATA × MODELS × TRAINING</text>
+  <text x="82" y="286" fill="#ffffff" font-family="Arial, sans-serif" font-size="74" font-weight="700">Daoyuan Chen</text>
+  <text x="86" y="352" fill="#dbe9ef" font-family="Arial, sans-serif" font-size="34">陈道源 · Researcher &amp; Engineer</text>
+  <line x1="86" y1="402" x2="1110" y2="402" stroke="#e9bd73" stroke-width="4"/>
+  <text x="86" y="466" fill="#ffffff" font-family="Arial, sans-serif" font-size="29">Foundation-model data · training systems · agentic LLM</text>
+  <text x="86" y="548" fill="#a9c7d2" font-family="Arial, sans-serif" font-size="24">yxdyc.github.io</text>
+</svg>

@@ -8,9 +8,25 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root {
+  --color-text: #444444;
+  --color-heading: #2a2c39;
+  --color-accent: #c4a484;
+  --color-accent-hover: #fc8129;
+  --color-filter: #0d6efd;
+  --color-focus: #ffbf47;
+  --color-border: #d5dbe3;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --reading-width: 74ch;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: var(--color-text);
 }
 
 a {
@@ -75,14 +91,6 @@ ul.no-bullets {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Disable AOS delay on mobile
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -1426,4 +1434,193 @@ section {
 }
 #footer .credits {
   font-size: 13px;
+}
+
+/*--------------------------------------------------------------
+# Homepage-specific structure and accessible research filters
+--------------------------------------------------------------*/
+li {
+  margin: 10px;
+}
+
+.note {
+  max-width: var(--reading-width);
+  padding: 10px;
+  margin: 15px 0;
+  color: #333;
+  font-style: italic;
+  background: #f9f9f9;
+  border-left: 4px solid #333;
+}
+
+blockquote {
+  max-width: var(--reading-width);
+  padding-left: 15px;
+  margin: 20px 0;
+  color: #555;
+  font-style: italic;
+  border-left: 5px solid #ccc;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+#hero {
+  height: 10vh;
+  padding-top: 5px;
+  padding-bottom: 0;
+}
+
+.hero-waves {
+  height: 80px;
+}
+
+.about .content p,
+#research > .container > p,
+#experience .container > p,
+#misc .container > p {
+  max-width: var(--reading-width);
+}
+
+.mobile-nav-toggle {
+  padding: 0;
+  background: transparent;
+  border: 0;
+}
+
+.mobile-nav-toggle:focus-visible,
+.navbar a:focus-visible,
+.filter-controls button:focus-visible,
+.tag:focus-visible,
+.paper-details-toggle:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 3px;
+}
+
+body.nav-open {
+  overflow: hidden;
+}
+
+.filter-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: 20px;
+}
+
+.filter-controls button {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.filter-controls button.active {
+  color: #fff;
+  background: var(--color-filter);
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.3em 0.6em;
+  margin: 0.2em;
+  color: #1f2937;
+  cursor: pointer;
+  background: #f0f0f0;
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+}
+
+.tag.active {
+  color: #fff;
+  background: var(--color-filter);
+}
+
+.filter-status {
+  min-height: 1.5em;
+  margin: 0 0 var(--space-4);
+  color: #5b6572;
+  font-size: 0.92rem;
+}
+
+.paper-item {
+  display: none;
+  max-width: var(--reading-width);
+  margin-bottom: 20px;
+}
+
+.paper-item.visible {
+  display: block;
+}
+
+.paper-container {
+  display: none;
+  max-width: var(--reading-width);
+  margin-bottom: 1.5em;
+}
+
+.paper-container.visible {
+  display: block;
+}
+
+.paper-tags {
+  margin-top: 0.5em;
+  color: #666;
+}
+
+.paper-tags small {
+  font-style: italic;
+}
+
+.paper-details-toggle {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about .row.content > div,
+  #research .container,
+  #experience .container,
+  #activities .container,
+  #misc .container {
+    max-width: 100%;
+  }
+
+  .paper-details-toggle {
+    display: inline-flex;
+    padding: 0.25rem 0.55rem;
+    margin: 0.45rem 0;
+    color: #35536b;
+    font-size: 0.82rem;
+    background: #f5f7f9;
+    border: 1px solid var(--color-border);
+    border-radius: 3px;
+  }
+
+  .paper-meta.collapsed {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .filter-controls {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .filter-controls button {
+    width: 100%;
+    margin-right: 0;
+    text-align: left;
+  }
+
+  #paper-list,
+  #paper-list > ul {
+    padding-left: 0.75rem;
+  }
 }

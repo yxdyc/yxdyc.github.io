@@ -1,0 +1,647 @@
+[
+  {
+    "title": "Data-Juicer Sandbox: A Feedback-Driven Suite for Multimodal Data-Model Co-development",
+    "url": "https://arxiv.org/abs/2407.11784",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2025,
+    "contribution": "First author, first position",
+    "topics": [
+      "vlm",
+      "llm",
+      "data",
+      "efficient",
+      "sys"
+    ],
+    "displayHtml": "(<strong><em>ICML’25</em></strong> <em style=\"color: rgb(102, 0, 255);\">spotlight, top 2.6%</em>) <a\n              href=\"https://arxiv.org/abs/2407.11784\"><strong> Data-Juicer Sandbox: A\n                Feedback-Driven Suite for Multimodal Data-Model Co-development</strong></a>\n            <ul>\n              <li><strong>Daoyuan Chen</strong>, Haibin Wang, Yilun Huang, Ce Ge, Yaliang Li, Bolin Ding, Jingren Zhou\n              </li>\n              <li><em>A new middleware links data and model feedback, enabling high performance and low cost verified in\n                  broad tasks. <em style=\"color: rgb(102, 0, 255);\">Top-1</em> in VBench leaderboard.</em></li>\n            </ul>"
+  },
+  {
+    "title": "The Synergy between Data and Multi-Modal Large Language Models: A Survey from Co-Development Perspective",
+    "url": "https://arxiv.org/abs/2407.08583",
+    "conferenceGroup": "TPAMI, CVPR, IJCV",
+    "year": 2025,
+    "contribution": "First author, non-first position",
+    "topics": [
+      "llm",
+      "vlm",
+      "data",
+      "bench"
+    ],
+    "displayHtml": "(<strong><em>TPAMI’25</strong>, survey</em>) <a href=\"https://arxiv.org/abs/2407.08583\">\n              <strong>The Synergy between Data and Multi-Modal Large Language Models: A Survey from Co-Development\n                Perspective</strong>\n            </a>\n            <ul>\n              <li>Zhen Qin, <strong>Daoyuan Chen</strong>^#, Wenhao Zhang, Liuyi Yao, Yilun Huang, Bolin Ding, Yaliang\n                Li, Shuiguang Deng</li>\n              <li><em>Highlighting the current state and potential of co-development between data and multi-modal\n                  LLMs,\n                  in a dual perspective.\n                </em></li>\n            </ul>"
+  },
+  {
+    "title": "BOTS: A Unified Framework for Bayesian Online Task Selection in LLM Reinforcement Finetuning",
+    "url": "https://arxiv.org/abs/2510.26374",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2026,
+    "contribution": "First author, non-first position",
+    "topics": [
+      "llm",
+      "data",
+      "efficient"
+    ],
+    "displayHtml": "(<strong><em>ICLR’26</em></strong>) <a href=\"https://arxiv.org/abs/2510.26374\"><strong>\n                BOTS: A Unified Framework for Bayesian Online Task Selection in LLM Reinforcement Finetuning\n              </strong></a>\n            <ul>\n              <li>Qianli Shen, <strong>Daoyuan Chen</strong>#, Yilun Huang, Zhenqing Ling, Yaliang Li, Bolin Ding, Jingren Zhou\n              </li>\n              <li><em> A Bayesian framework for online task selection in LLM finetuning that integrates explicit and implicit evidence with posterior sampling, achieving efficient and effective training.</em></li>\n            </ul>"
+  },
+  {
+    "title": "Beyond Solvability: Task Learnability as a Static Prior for LLM RL Post-Training",
+    "url": "https://arxiv.org/abs/2608.09217",
+    "conferenceGroup": "arXiv",
+    "year": 2026,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "llm",
+      "data",
+      "efficient"
+    ],
+    "displayHtml": "(<em>arXiv’26</em>) <a href=\"https://arxiv.org/abs/2608.09217\"><strong>\n              Beyond Solvability: Task Learnability as a Static Prior for LLM RL Post-Training\n            </strong></a>\n            <ul>\n              <li>Ting Zhou*, Zhenqing Ling*, <strong>Daoyuan Chen</strong>, Qianli Shen, Yilun Huang, Ying Shen, Yaliang Li</li>\n              <li><em>Studies task learnability as a training-response signal and introduces TrajVal, a lightweight probe-based prior for more data-efficient RL post-training.</em></li>\n            </ul>"
+  },
+  {
+    "title": "Grounded in Reality: Learning and Deploying Proactive LLM from Offline Logs",
+    "url": "https://arxiv.org/abs/2510.25441",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2026,
+    "contribution": "First author, non-first position",
+    "topics": [
+      "llm",
+      "data",
+      "human"
+    ],
+    "displayHtml": "(<strong><em>ICML’26</em></strong>) <a href=\"https://arxiv.org/abs/2510.25441\"><strong>\n                Grounded in Reality: Learning and Deploying Proactive LLM from Offline Logs\n              </strong></a>\n            <ul>\n              <li>Fei Wei, <strong>Daoyuan Chen</strong>#, Ce Wang, Yilun Huang, Yushuo Chen, Xuchen Pan, Yaliang Li, Bolin Ding\n              </li>\n              <li><em>Introduces Learn-to-Ask, which learns what to ask and when to stop from offline dialogue logs and was evaluated in a real-world medication-service workflow.</em></li>\n            </ul>"
+  },
+  {
+    "title": "Trinity-RFT: A General-Purpose and Unified Framework for Reinforcement Fine-Tuning of Large Language Models",
+    "url": "https://arxiv.org/abs/2505.17826",
+    "conferenceGroup": "arXiv",
+    "year": 2025,
+    "contribution": "First author, non-first position",
+    "topics": [
+      "llm",
+      "data",
+      "human",
+      "sys"
+    ],
+    "displayHtml": "(<em>arXiv’25</em>) <a href=\"https://arxiv.org/abs/2505.17826\"><strong>\n                Trinity-RFT: A General-Purpose and Unified Framework for Reinforcement Fine-Tuning of Large Language\n                Models\n              </strong></a>\n            <ul>\n              <li>Xuchen Pan, Yanxi Chen, Yushuo Chen, Yuchang Sun, <strong>Daoyuan Chen</strong>#, Wenhao Zhang,\n                Yuexiang\n                Xie, Yilun Huang, Yilei Zhang, Dawei Gao, Yaliang Li, Bolin Ding, Jingren Zhou\n              </li>\n              <li><em>An open-source project exploring how to process feedback data and evolve large models in\n                  dynamic environments.</em></li>\n            </ul>"
+  },
+  {
+    "title": "DetailMaster: Can Your Text-to-Image Model Handle Long Prompts?",
+    "url": "https://arxiv.org/abs/2505.16915",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2026,
+    "contribution": "First author, non-first position",
+    "topics": [
+      "vlm",
+      "data",
+      "bench"
+    ],
+    "displayHtml": "(<strong><em>ICML’26</em></strong>) <a href=\"https://arxiv.org/abs/2505.16915\"><strong>\n                DetailMaster: Can Your Text-to-Image Model Handle Long Prompts?</strong></a>\n            <ul>\n              <li>Qirui Jiao, <strong>Daoyuan Chen</strong>^#, Yilun Huang, Xika Lin, Ying Shen, Yaliang Li</li>\n              <li><em>A synthetic benchmark revealing notable performance drops despite large models' proficiency with\n                  short descriptions. </em>\n              </li>\n            </ul>"
+  },
+  {
+    "title": "MindGym: What Matters in Question Synthesis for Thinking-Centric Fine-Tuning?",
+    "url": "https://arxiv.org/abs/2503.09499",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2025,
+    "contribution": "First author, non-first position",
+    "topics": [
+      "vlm",
+      "llm",
+      "data"
+    ],
+    "displayHtml": "(<strong><em>NeurIPS’25</em></strong>) <a href=\"https://arxiv.org/abs/2503.09499\"><strong>\n                MindGym: What Matters in Question Synthesis for Thinking-Centric Fine-Tuning?</strong></a>\n            <ul>\n              <li>Zhe Xu, <strong>Daoyuan Chen</strong>^#, Zhenqing Ling, Yaliang Li, Ying Shen</li>\n              <li><em>A new data synthesis method, which enables large models to self-synthesize high-quality,\n                  low-variance data for efficient fine-tuning (16% gain on MathVision using only 400 samples). </em>\n              </li>\n            </ul>"
+  },
+  {
+    "title": "Diversity as a Reward: Fine-Tuning LLMs on a Mixture of Domain-Undetermined Data",
+    "url": "https://www.arxiv.org/abs/2502.04380",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2025,
+    "contribution": "First author, non-first position",
+    "topics": [
+      "llm",
+      "data"
+    ],
+    "displayHtml": "(<strong><em>NeurIPS’25</em></strong>) <a href=\"https://www.arxiv.org/abs/2502.04380\"><strong>Diversity as a Reward:\n                Fine-Tuning LLMs on a Mixture of Domain-Undetermined Data</strong></a>\n            <ul>\n              <li>Zhenqing Ling, <strong>Daoyuan Chen</strong>^#, Liuyi Yao, Qianli Shen, Yaliang Li, Ying Shen</li>\n              <li><em>A theoretically informed method, which treats diversity as a reward, achieves new SOTA average\n                  performance across 7 benchmarks on SOTA LLMs with domain-undetermined data.</em></li>\n            </ul>"
+  },
+  {
+    "title": "Img-Diff: Contrastive Data Synthesis for Multimodal Large Language Models",
+    "url": "https://arxiv.org/pdf/2408.04594",
+    "conferenceGroup": "TPAMI, CVPR, IJCV",
+    "year": 2025,
+    "contribution": "Second Author",
+    "topics": [
+      "vlm",
+      "data"
+    ],
+    "displayHtml": "(<strong><em>CVPR’25</em></strong>) <a href=\"https://arxiv.org/pdf/2408.04594\">\n              <strong>Img-Diff: Contrastive Data Synthesis for Multimodal Large Language Models</strong>\n            </a>\n            <ul>\n              <li>Qirui Jiao, <strong>Daoyuan Chen</strong>^, Yilun Huang, Bolin Ding, Yaliang Li, Ying Shen</li>\n              <li><em>A new method of contrastive data synthesis, creating a high-quality dataset that describes\n                  object\n                  differences focusing on fine-grained regions in images.</em></li>\n            </ul>"
+  },
+  {
+    "title": "Data-Juicer 2.0: Cloud-Scale Adaptive Data Processing for and with Foundation Models",
+    "url": "https://arxiv.org/abs/2501.14755",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2025,
+    "contribution": "First author, first position",
+    "topics": [
+      "llm",
+      "vlm",
+      "data",
+      "sys",
+      "efficient"
+    ],
+    "displayHtml": "(<strong><em>NeurIPS’25</em></strong> <em style=\"color: rgb(102, 0, 255);\">spotlight, top 3.1%</em>) <a href=\"https://arxiv.org/abs/2501.14755\"><strong> Data-Juicer 2.0: Cloud-Scale\n                Adaptive Data Processing for and with Foundation Models</strong></a>\n            <ul>\n              <li><strong>Daoyuan Chen</strong>, Yilun Huang, Xuchen Pan, Nana Jiang, Haibin Wang, Yilei Zhang, Ce Ge,\n                Yushuo Chen,\n                Wenhao Zhang, Zhijian Ma, Jun Huang, Wei Lin, Yaliang Li, Bolin Ding, Jingren Zhou</li>\n              <li><em>Offering efficient multimodal data processing abilities with <em\n                    style=\"color: rgb(102, 0, 255);\">100+ operators</em>, and seamless scalability for foundation\n                  models.</em></li>\n            </ul>"
+  },
+  {
+    "title": "Data-Juicer: A One-Stop Data Processing System for Large Language Models",
+    "url": "https://arxiv.org/abs/2309.02033",
+    "conferenceGroup": "KDD, SIGMOD, VLDB, TKDE",
+    "year": 2024,
+    "contribution": "First author, first position",
+    "topics": [
+      "llm",
+      "data",
+      "sys",
+      "efficient"
+    ],
+    "displayHtml": "(<strong><em>SIGMOD’24</em></strong>) <a href=\"https://arxiv.org/abs/2309.02033\"><strong>Data-Juicer: A\n                One-Stop Data Processing System for Large Language Models</strong></a>\n            <ul>\n              <li><strong>Daoyuan Chen</strong>, Yilun Huang, Zhijian Ma, Hesen Chen, Xuchen Pan, Ce Ge, Dawei Gao,\n                Yuexiang Xie, Zhaoyang Liu, Jinyang Gao, Yaliang Li, Bolin Ding, Jingren Zhou</li>\n              <li><em>Providing open, versatile data processing abilities to ease the creation and evaluation of\n                  diverse\n                  data recipes for LLMs.\n                </em></li>\n            </ul>"
+  },
+  {
+    "title": "Multi-modal Data Processing for Foundation Models: Practical Guidances and Use Cases",
+    "url": "https://modelscope.github.io/data-juicer/_static/tutorial_kdd24.html",
+    "conferenceGroup": "KDD, SIGMOD, VLDB, TKDE",
+    "year": 2024,
+    "contribution": "First author, first position",
+    "topics": [
+      "llm",
+      "data",
+      "sys",
+      "vlm",
+      "bench"
+    ],
+    "displayHtml": "(<strong><em>KDD’24, tutorial</em></strong>) <a\n              href=\"https://modelscope.github.io/data-juicer/_static/tutorial_kdd24.html\"><strong>Multi-modal Data\n                Processing for Foundation Models: Practical Guidances and Use Cases</strong></a>\n            <ul>\n              <li><strong>Daoyuan Chen</strong>, Yaliang Li, Bolin Ding, The Data-Juicer Team</li>\n              <li><em>Discussing practical skills in multi-modal data processing, to efficiently handle data variety,\n                  quality, and scale for foundation models.</em></li>\n            </ul>"
+  },
+  {
+    "title": "ChartThinker: A Contextual Chain-of-Thought Approach to Optimized Chart Summarization",
+    "url": "https://arxiv.org/abs/2403.11236",
+    "conferenceGroup": "SIGIR, ACL, COLING, CIKM",
+    "year": 2024,
+    "contribution": "Second Author",
+    "topics": [
+      "vlm",
+      "data",
+      "human"
+    ],
+    "displayHtml": "(<strong><em>COLING’24</em></strong>) <a href=\"https://arxiv.org/abs/2403.11236\"><strong>ChartThinker: A\n                Contextual Chain-of-Thought Approach to Optimized Chart Summarization</strong></a>\n            <ul>\n              <li>Mengsha Liu, <strong>Daoyuan Chen</strong>^, Yaliang Li, Guian Fang and Ying Shen.</li>\n              <li><em>Optimizing chart summarization by combining contextual reasoning and deep analysis, achieving\n                  superior performance across multiple metrics.</em></li>\n            </ul>"
+  },
+  {
+    "title": "From Training-Free to Adaptive: Empirical Insights into MLLMs' Understanding of Detection Information",
+    "url": "https://arxiv.org/abs/2401.17981",
+    "conferenceGroup": "TPAMI, CVPR, IJCV",
+    "year": 2026,
+    "contribution": "Second Author",
+    "topics": [
+      "vlm",
+      "data"
+    ],
+    "displayHtml": "(<strong><em>IJCV’26</em></strong>) <a href=\"https://arxiv.org/abs/2401.17981\">\n              <strong>From Training-Free to Adaptive: Empirical Insights into MLLMs' Understanding of Detection\n                Information</strong>\n            </a>\n            <ul>\n              <li>Qirui Jiao, <strong>Daoyuan Chen</strong>^, Yilun Huang, Yaliang Li, Ying Shen.</li>\n              <li><em>Showing how adaptively fine-tuning MLLMs with textual detection information can boost\n                  performance\n                  via extensive experiments.\n                </em></li>\n            </ul>"
+  },
+  {
+    "title": "A Bivariate Data Mixing Law for Language Model Pretraining",
+    "url": "https://arxiv.org/abs/2402.11505",
+    "conferenceGroup": "arXiv",
+    "year": 2024,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "llm",
+      "data"
+    ],
+    "displayHtml": "(<em>arXiv’24</em>) <a href=\"https://arxiv.org/abs/2402.11505\">\n              <strong>A Bivariate Data Mixing Law for Language Model Pretraining</strong>\n            </a>\n            <ul>\n              <li>Ce Ge, Zhijian Ma, <strong>Daoyuan Chen</strong>, Yaliang Li, Bolin Ding.</li>\n              <li><em>A new bivariate data mixing law that models the joint scaling patterns of domain proportions and\n                  data quantity in LLM pretraining.</em></li>\n            </ul>"
+  },
+  {
+    "title": "ArtAug: Enhancing Text-to-Image Generation through Synthesis-Understanding Interaction",
+    "url": "https://arxiv.org/abs/2412.12888",
+    "conferenceGroup": "arXiv",
+    "year": 2024,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "vlm",
+      "data",
+      "human"
+    ],
+    "displayHtml": "(<em>arXiv’24</em>) <a href=\"https://arxiv.org/abs/2412.12888\">\n              <strong> ArtAug: Enhancing Text-to-Image Generation through Synthesis-Understanding Interaction</strong>\n            </a>\n            <ul>\n              <li>Zhongjie Duan, Qianyi Zhao, Cen Chen, <strong>Daoyuan Chen</strong>, Wenmeng Zhou, Yaliang Li,\n                Yingda\n                Chen</li>\n              <li><em>Enhancing text-to-image generation by iteratively integrating synthesis and understanding\n                  models,\n                  improving aesthetics and efficiency without extra inference costs.</em></li>\n            </ul>"
+  },
+  {
+    "title": "AttriCtrl: Fine-Grained Control of Aesthetic Attribute Intensity in Diffusion Models",
+    "url": "https://arxiv.org/abs/2508.02151",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2026,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "vlm",
+      "human"
+    ],
+    "displayHtml": "(<strong><em>ICLR’26</em></strong>) <a href=\"https://arxiv.org/abs/2508.02151\">\n              <strong> AttriCtrl: Fine-Grained Control of Aesthetic Attribute Intensity in Diffusion Models\n</strong>\n            </a>\n            <ul>\n              <li>Die Chen, Zhongjie Duan, Zhiwen Li, Cen Chen, <strong>Daoyuan Chen</strong>, Yaliang Li, Yingda Chen </li>\n            </ul>"
+  },
+  {
+    "title": "AutoLoRA: Automatic LoRA Retrieval and Fine-Grained Gated Fusion for Text-to-Image Generation",
+    "url": "https://arxiv.org/abs/2508.02107",
+    "conferenceGroup": "arXiv",
+    "year": 2025,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "vlm",
+      "human"
+    ],
+    "displayHtml": "(<em>arXiv’25</em>) <a href=\"https://arxiv.org/abs/2508.02107\">\n              <strong> AutoLoRA: Automatic LoRA Retrieval and Fine-Grained Gated Fusion for Text-to-Image Generation</strong>\n            </a>\n            <ul>\n              <li>Zhiwen Li, Zhongjie Duan, Die Chen, Cen Chen, <strong>Daoyuan Chen</strong>, Yaliang Li, Yingda Chen </li>\n            </ul>"
+  },
+  {
+    "title": "AgentScope: A Flexible yet Robust Multi-Agent Platform",
+    "url": "https://arxiv.org/abs/2402.14034",
+    "conferenceGroup": "arXiv",
+    "year": 2024,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "llm",
+      "sys"
+    ],
+    "displayHtml": "(<em>arXiv’24</em>) <a href=\"https://arxiv.org/abs/2402.14034\">\n              <strong>AgentScope: A Flexible yet Robust Multi-Agent Platform</strong>\n            </a>\n            <ul>\n              <li>Dawei Gao, Zitao Li, Xuchen Pan, Weirui Kuang, Zhijian Ma, Bingchen Qian, Fei Wei, Wenhao Zhang,\n                Yuexiang Xie, <strong>Daoyuan Chen</strong>, Liuyi Yao, Hongyi Peng, Zeyu Zhang, Lin Zhu, Chen Cheng,\n                Hongzhu Shi, Yaliang Li, Bolin Ding, Jingren Zhou.</li>\n              <li><em>Offering open and broad abilities to build LLM-empowered multi-agent applications in an easier\n                  way.</em></li>\n            </ul>"
+  },
+  {
+    "title": "FlowerTune: A Cross-Domain Benchmark for Federated Fine-Tuning of Large Language Models",
+    "url": "https://arxiv.org/abs/2506.02961",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2025,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "llm",
+      "bench"
+    ],
+    "displayHtml": "(<strong><em>NeurIPS’25</em></strong>) <a href=\"https://arxiv.org/abs/2506.02961\">\n              <strong>FlowerTune: A Cross-Domain Benchmark for Federated Fine-Tuning of Large Language Models\n</strong>\n            </a>\n            <ul>\n              <li>Yan Gao, Massimo Roberto Scamarcia, Javier Fernandez-Marques, Mohammad Naseri, Chong Shen Ng, Dimitris Stripelis, Zexi Li, Tao Shen, Jiamu Bai, <strong>Daoyuan Chen</strong>, Zikai Zhang, Rui Hu, InSeo Song, Lee KangYoon, Hong Jia, Ting Dang, Junyan Wang, Zheyuan Liu, Daniel Janes Beutel, Lingjuan Lyu, Nicholas D. Lane.</li>\n            </ul>"
+  },
+  {
+    "title": "Federated Fine-tuning of Large Language Models under Heterogeneous Language Tasks and Client Resources",
+    "url": "https://arxiv.org/abs/2402.11505",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2024,
+    "contribution": "First author, non-first position",
+    "topics": [
+      "llm",
+      "data",
+      "fl"
+    ],
+    "displayHtml": "(<strong><em>NeurIPS’24</em></strong>) <a href=\"https://arxiv.org/abs/2402.11505\"><strong>Federated\n                Fine-tuning of Large Language Models under Heterogeneous Language Tasks and Client\n                Resources</strong></a>\n            <ul>\n              <li>Jiamu Bai, <strong>Daoyuan Chen</strong>^#, Bingchen Qian, Liuyi Yao, Yaliang Li.</li>\n              <li><em>An aggregation scheme for FL of LLMs that dynamically adjusts LoRA ranks to harness the full\n                  potential of diverse client resources, enhancing generalization, and validated on thousands of\n                  tasks.</em></li>\n            </ul>"
+  },
+  {
+    "title": "Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18 Kilobytes",
+    "url": "https://arxiv.org/abs/2312.06353",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2024,
+    "contribution": "First author, non-first position",
+    "topics": [
+      "llm",
+      "fl",
+      "efficient"
+    ],
+    "displayHtml": "(<strong><em>ICML’24</em></strong>) <a href=\"https://arxiv.org/abs/2312.06353\">\n              <strong>\n                Federated Full-Parameter Tuning of Billion-Sized Language Models with Communication Cost under 18\n                Kilobytes</strong>\n            </a>\n            <ul>\n              <li>Zhen Qin, <strong>Daoyuan Chen</strong>^, Bingchen Qian, Bolin Ding, Yaliang Li, Shuiguang Deng.\n              </li>\n              <li><em> A theory-informed method for federated full-parameter tuning of LLMs, which incurs &lt;18KB\n                  communication cost per round for a 3B LLM, meanwhile delivering SOTA accuracy.</em></li>\n            </ul>"
+  },
+  {
+    "title": "On the Convergence of Zeroth-Order Federated Tuning in Large Language Models",
+    "url": "https://arxiv.org/abs/2402.05926",
+    "conferenceGroup": "KDD, SIGMOD, VLDB, TKDE",
+    "year": 2024,
+    "contribution": "Second Author",
+    "topics": [
+      "llm",
+      "fl",
+      "efficient"
+    ],
+    "displayHtml": "(<strong><em>KDD’24</em></strong>) <a href=\"https://arxiv.org/abs/2402.05926\">\n              <strong>\n                On the Convergence of Zeroth-Order Federated Tuning in Large Language Models\n              </strong>\n            </a>\n            <ul>\n              <li>Zhenqing Ling, <strong>Daoyuan Chen</strong>^, Liuyi Yao, Yaliang Li, Ying Shen.</li>\n              <li><em>FedMeZO, a memory-efficient method for FL of LLMs that achieves faster convergence and reduced\n                  GPU\n                  memory usage, backed by theoretical analysis and empirical validation.</em></li>\n            </ul>"
+  },
+  {
+    "title": "FederatedScope-LLM: A Comprehensive Package for Fine-tuning Large Language Models in Federated Learning",
+    "url": "https://arxiv.org/abs/2309.00363",
+    "conferenceGroup": "KDD, SIGMOD, VLDB, TKDE",
+    "year": 2024,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "llm",
+      "fl",
+      "sys"
+    ],
+    "displayHtml": "(<strong><em>KDD’24</em></strong>) <a href=\"https://arxiv.org/abs/2309.00363\"> \n            <strong>FederatedScope-LLM: A\n              Comprehensive Package for Fine-tuning Large Language Models in Federated Learning </strong>\n            </a>\n            <ul>\n              <li>Weirui Kuang, Bingchen Qian, Zitao Li, <strong>Daoyuan Chen</strong>, Dawei Gao, Xuchen Pan,\n                Yuexiang\n                Xie, Yaliang Li, Bolin Ding, Jingren Zhou.</li>\n              <li><em>A new package designed to address the challenges of fine-tuning LLMs in FL.</em></li>\n            </ul>"
+  },
+  {
+    "title": "Is Sharing Neighbor Generator in Federated Graph Learning Safe?",
+    "url": "https://dl.acm.org/doi/10.1109/TKDE.2024.3482448",
+    "conferenceGroup": "KDD, SIGMOD, VLDB, TKDE",
+    "year": 2024,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "fl"
+    ],
+    "displayHtml": "(<strong><em>TKDE’24</em></strong>) <a href=\"https://dl.acm.org/doi/10.1109/TKDE.2024.3482448\">\n              <strong>Is Sharing Neighbor Generator in Federated Graph Learning Safe? </strong>\n            </a>\n            <ul>\n              <li>Liuyi Yao, Zhen Wang, Yuexiang Xie, Yaliang Li, Weirui Kuang, <strong>Daoyuan Chen</strong>, Bolin\n                Ding.</li>\n              <li><em>Sharing neighbor generators in graph FL poses privacy risks, as it enables data reconstruction\n                  attacks, highlighting the need for defense strategies.</em></li>\n            </ul>"
+  },
+  {
+    "title": "Efficient Personalized Federated Learning via Sparse Model-Adaptation",
+    "url": "https://arxiv.org/abs/2305.02776",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2023,
+    "contribution": "First author, first position",
+    "topics": [
+      "llm",
+      "fl",
+      "efficient"
+    ],
+    "displayHtml": "(<strong><em>ICML’23</em></strong>) <a href=\"https://arxiv.org/abs/2305.02776\">\n              <strong>Efficient Personalized Federated Learning via Sparse Model-Adaptation</strong>\n            </a>\n            <ul>\n              <li><strong>Daoyuan Chen</strong>, Liuyi Yao, Dawei Gao, Yaliang Li, Bolin Ding.</li>\n              <li><em>An efficient pFL method with theoretical analysis, which adaptively learns sparse local models,\n                  and achieves SOTA accuracy with improved efficiency simultaneously.</em></li>\n            </ul>"
+  },
+  {
+    "title": "FS-Real: Towards Real-World Cross-Device Federated Learning",
+    "url": "https://arxiv.org/abs/2303.13363",
+    "conferenceGroup": "KDD, SIGMOD, VLDB, TKDE",
+    "year": 2023,
+    "contribution": "First author, first position",
+    "topics": [
+      "fl",
+      "efficient",
+      "sys"
+    ],
+    "displayHtml": "(<strong><em>KDD’23</em></strong>) <a href=\"https://arxiv.org/abs/2303.13363\">\n              <strong>FS-Real: Towards Real-World Cross-Device Federated Learning</strong>\n            </a>\n            <ul>\n              <li><strong>Daoyuan Chen</strong>, Dawei Gao, Yuexiang Xie, Xuchen Pan, Zitao Li, Yaliang Li, Bolin\n                Ding,\n                Jingren Zhou.</li>\n              <li><em>An efficient, scalable system for real-world cross-device FL, addressing challenges of\n                  heterogeneous devices and large-scale training.</em></li>\n            </ul>"
+  },
+  {
+    "title": "FS-Real: A Real-World Cross-Device Federated Learning Platform",
+    "url": "https://bolinding.github.io/papers/vldb23fsreal.pdf",
+    "conferenceGroup": "KDD, SIGMOD, VLDB, TKDE",
+    "year": 2023,
+    "contribution": "First author, non-first position",
+    "topics": [
+      "fl",
+      "efficient",
+      "sys"
+    ],
+    "displayHtml": "(<strong><em>VLDB’23</em></strong>) <a href=\"https://bolinding.github.io/papers/vldb23fsreal.pdf\">\n              <strong>FS-Real: A Real-World Cross-Device Federated Learning Platform</strong>\n            </a>\n            <ul>\n              <li>Dawei Gao, <strong>Daoyuan Chen</strong>#, Zitao Li, Yuexiang Xie, Xuchen Pan, Yaliang Li, Bolin\n                Ding,\n                Jingren Zhou.</li>\n              <li><em>Industrial use-cases of FS-Real, including phones and cars.</em></li>\n            </ul>"
+  },
+  {
+    "title": "Revisiting Personalized Federated Learning: Robustness Against Backdoor Attacks",
+    "url": "https://arxiv.org/abs/2302.01677",
+    "conferenceGroup": "KDD, SIGMOD, VLDB, TKDE",
+    "year": 2023,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "fl"
+    ],
+    "displayHtml": "(<strong><em>KDD’23</em></strong>) <a href=\"https://arxiv.org/abs/2302.01677\">\n              <strong>Revisiting Personalized Federated Learning: Robustness Against Backdoor Attacks</strong>\n            </a>\n            <ul>\n              <li>Zeyu Qin, Liuyi Yao, <strong>Daoyuan Chen</strong>, Yaliang Li, Bolin Ding, Minhao Cheng.</li>\n              <li><em>Personalized FL with partial model-sharing boosts robustness against backdoor attacks, unlike\n                  full\n                  model-sharing, offering insights for improved defense strategies.</em></li>\n            </ul>"
+  },
+  {
+    "title": "FederatedScope: A Flexible Federated Learning Platform for Heterogeneity",
+    "url": "https://arxiv.org/abs/2204.05011",
+    "conferenceGroup": "KDD, SIGMOD, VLDB, TKDE",
+    "year": 2023,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "fl",
+      "sys"
+    ],
+    "displayHtml": "(<strong><em>VLDB’23</em></strong>) <a href=\"https://arxiv.org/abs/2204.05011\">\n              <strong>FederatedScope: A Flexible Federated Learning Platform for Heterogeneity</strong>\n            </a>\n            <ul>\n              <li>Yuexiang Xie, Zhen Wang, Dawei Gao, <strong>Daoyuan Chen</strong>, Liuyi Yao, Weirui Kuang, Yaliang\n                Li, Bolin Ding, Jingren Zhou.</li>\n              <li><em>An open package for FL research and development.</em></li>\n            </ul>"
+  },
+  {
+    "title": "pFL-Bench: A Comprehensive Benchmark for Personalized Federated Learning",
+    "url": "https://arxiv.org/abs/2206.03655",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2022,
+    "contribution": "First author, first position",
+    "topics": [
+      "fl",
+      "efficient",
+      "bench"
+    ],
+    "displayHtml": "(<strong><em>NeurIPS’22</em></strong>) <a href=\"https://arxiv.org/abs/2206.03655\">\n              <strong>pFL-Bench: A Comprehensive Benchmark for Personalized Federated Learning</strong>\n            </a>\n            <ul>\n              <li><strong>Daoyuan Chen</strong>, Dawei Gao, Weirui Kuang, Yaliang Li, Bolin Ding.</li>\n              <li><em>Benchmarking personalized FL, containing more than 10 datasets, 20 pFL methods, and systematic\n                  evaluation with highlighted benefits and potential of pFL.</em></li>\n            </ul>"
+  },
+  {
+    "title": "A Practical Introduction to Federated Learning",
+    "url": "https://joneswong.github.io/KDD22FLTutorial/",
+    "conferenceGroup": "KDD, SIGMOD, VLDB, TKDE",
+    "year": 2022,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "fl",
+      "bench"
+    ],
+    "displayHtml": "(<strong><em>KDD’22, tutorial</em></strong>) <a href=\"https://joneswong.github.io/KDD22FLTutorial/\">\n              <strong>A Practical Introduction to Federated Learning</strong>\n            </a>\n            <ul>\n              <li>Yaliang Li, Bolin Ding, Zhen Wang, Yuexiang Xie, Dawei Gao, Liuyi Yao, <strong>Daoyuan\n                  Chen</strong>,\n                Weirui Kuang, Hongzhu Shi, Jingren Zhou</li>\n              <li><em>Hands-on lessons on FL and FS package.</em></li>\n            </ul>"
+  },
+  {
+    "title": "Dynamic Demonstration Retrieval and Cognitive Understanding for Emotional Support Conversation",
+    "url": "https://arxiv.org/abs/2404.02505",
+    "conferenceGroup": "SIGIR, ACL, COLING, CIKM",
+    "year": 2024,
+    "contribution": "Second Author",
+    "topics": [
+      "efficient",
+      "human"
+    ],
+    "displayHtml": "(<strong><em>SIGIR’24</em></strong>) <a href=\"https://arxiv.org/abs/2404.02505\">\n              <strong>Dynamic Demonstration\n                Retrieval and Cognitive Understanding for Emotional Support Conversation</strong>\n            </a>\n            <ul>\n              <li>Zhe Xu, <strong>Daoyuan Chen</strong>^, Jiayi Kuang, Zihao Yi, Yaliang Li, Ying Shen.</li>\n              <li><em> Enhancing emotional support conversations by improving empathetic response generation and\n                  comprehending implicit mental states.</em></li>\n            </ul>"
+  },
+  {
+    "title": "Learned Index with Dynamic $\\epsilon$",
+    "url": "https://openreview.net/forum?id=UiaUEICawgw",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2023,
+    "contribution": "First author, first position",
+    "topics": [
+      "efficient",
+      "sys"
+    ],
+    "displayHtml": "(<strong><em>ICLR’23</em></strong>) <a href=\"https://openreview.net/forum?id=UiaUEICawgw\">\n              <strong>Learned Index with Dynamic $\\epsilon$</strong>\n            </a>\n            <ul>\n              <li><strong>Daoyuan Chen</strong>, Wuchao Li, Yaliang Li, Bolin Ding, Kai Zeng, Defu Lian, Jingren Zhou.\n              </li>\n              <li><em>A mathematically-grounded learned index framework, which is efficient, based on theoretically\n                  derived prediction error bounds, and pluggable to several SOTA learned index\n                  methods.</em></li>\n            </ul>"
+  },
+  {
+    "title": "Knowledge-Based Reasoning Network for Relation Detection",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34752410/",
+    "conferenceGroup": "TNNLS, IJCAI, AAAI, AIMedicine",
+    "year": 2023,
+    "contribution": "Subsequent Author",
+    "seniorAuthorship": true,
+    "topics": [
+      "fl",
+      "efficient"
+    ],
+    "displayHtml": "(<em>TNNLS, 2023, IF 10.4</em>) <a href=\"https://pubmed.ncbi.nlm.nih.gov/34752410/\">\n              <strong>Knowledge-Based\n                Reasoning Network for Relation Detection</strong>\n            </a>\n            <ul>\n              <li>Ying Shen, Min Yang, Yaliang Li, Dong Wang, Haitao Zheng, <strong>Daoyuan Chen</strong>*.</li>\n            </ul>"
+  },
+  {
+    "title": "Relabel the noise: joint extraction of entities and relations via cooperative multiagents",
+    "url": "https://arxiv.org/abs/2004.09930",
+    "conferenceGroup": "SIGIR, ACL, COLING, CIKM",
+    "year": 2020,
+    "contribution": "First author, first position",
+    "topics": [
+      "efficient",
+      "data"
+    ],
+    "displayHtml": "(<strong><em>ACL’20</em></strong>) <a href=\"https://arxiv.org/abs/2004.09930\">\n              <strong>Relabel the noise: joint\n                extraction of entities and relations via cooperative multiagents</strong>\n            </a>\n            <ul>\n              <li><strong>Daoyuan Chen</strong>, Yaliang Li, Kai Lei, Ying Shen.</li>\n              <li><em>A cooperative multiagent method jointly extracts entities and relations by re-labeling noisy\n                  data,\n                  addressing shifted label distribution and improving extraction performance.\n                </em></li>\n            </ul>"
+  },
+  {
+    "title": "Adabert: Task-adaptive bert compression with differentiable neural architecture search",
+    "url": "https://arxiv.org/abs/2001.04246",
+    "conferenceGroup": "TNNLS, IJCAI, AAAI, AIMedicine",
+    "year": 2020,
+    "contribution": "First author, first position",
+    "topics": [
+      "efficient"
+    ],
+    "displayHtml": "(<strong><em>IJCAI’20</em></strong>) <a href=\"https://arxiv.org/abs/2001.04246\">\n              <strong>Adabert: Task-adaptive\n                bert compression with differentiable neural architecture search</strong>\n            </a>\n            <ul>\n              <li><strong>Daoyuan Chen</strong>, Yaliang Li, Minghui Qiu, Zhen Wang, Bofang Li, Bolin Ding, Hongbo\n                Deng,\n                Jun Huang, Wei Lin, Jingren Zhou.</li>\n              <li><em>Using differentiable neural architecture search to compress BERT into task-adaptive models,\n                  achieving faster inference and smaller size while maintaining performance.</em></li>\n            </ul>"
+  },
+  {
+    "title": "An Adaptive Embedding Framework for Heterogeneous Information Networks",
+    "url": "https://dl.acm.org/doi/10.1145/3340531.3411989",
+    "conferenceGroup": "SIGIR, ACL, COLING, CIKM",
+    "year": 2020,
+    "contribution": "First author, first position",
+    "topics": [
+      "data"
+    ],
+    "displayHtml": "(<strong><em>CIKM’20</em></strong>) <a href=\"https://dl.acm.org/doi/10.1145/3340531.3411989\">\n              <strong>An Adaptive\n                Embedding Framework for Heterogeneous Information Networks</strong></a>\n            <ul>\n              <li><strong>Daoyuan Chen</strong>, Yaliang Li, Bolin Ding, Ying Shen.</li>\n            </ul>"
+  },
+  {
+    "title": "Joint learning of answer selection and answer summary generation in community question answering",
+    "url": "https://arxiv.org/abs/1911.09801",
+    "conferenceGroup": "TNNLS, IJCAI, AAAI, AIMedicine",
+    "year": 2020,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "efficient",
+      "data"
+    ],
+    "displayHtml": "(<strong><em>AAAI’20</em></strong>) <a href=\"https://arxiv.org/abs/1911.09801\">\n              <strong>Joint learning of answer\n                selection and answer summary generation in community question answering</strong></a>\n            <ul>\n              <li>Yang Deng, Wai Lam, Yuexiang Xie, <strong>Daoyuan Chen</strong>, Yaliang Li, Min Yang, Ying Shen.\n              </li>\n            </ul>"
+  },
+  {
+    "title": "Knowledge-aware textual entailment with graph attention network",
+    "url": "https://dl.acm.org/doi/10.1145/3357384.3358071",
+    "conferenceGroup": "SIGIR, ACL, COLING, CIKM",
+    "year": 2019,
+    "contribution": "First author, first position",
+    "topics": [
+      "data"
+    ],
+    "displayHtml": "(<strong><em>CIKM’19</em></strong>) <a href=\"https://dl.acm.org/doi/10.1145/3357384.3358071\">\n              <strong>Knowledge-aware textual entailment with graph\n                attention network</strong></a>\n            <ul>\n              <li><strong>Daoyuan Chen</strong>, Yaliang Li, Min Yang, Hai-Tao Zheng, Ying Shen.</li>\n            </ul>"
+  },
+  {
+    "title": "Answer-enhanced Path-aware Relation Detection over Knowledge Base",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3331184.3331328",
+    "conferenceGroup": "SIGIR, ACL, COLING, CIKM",
+    "year": 2019,
+    "contribution": "First author, first position",
+    "topics": [
+      "data"
+    ],
+    "displayHtml": "(<strong><em>SIGIR’19</em></strong>) <a href=\"https://dl.acm.org/doi/abs/10.1145/3331184.3331328\">\n              <strong>Answer-enhanced Path-aware Relation Detection\n                over Knowledge Base</strong></a>\n            <ul>\n              <li><strong>Daoyuan Chen</strong>, Min Yang, Hai-Tao Zheng, Yaliang Li, Ying Shen.</li>\n            </ul>"
+  },
+  {
+    "title": "Cooperative denoising for distantly supervised relation extraction",
+    "url": "https://coling2018.org/index.html%3Fp=1558.html",
+    "conferenceGroup": "SIGIR, ACL, COLING, CIKM",
+    "year": 2018,
+    "contribution": "First author, non-first position",
+    "topics": [
+      "efficient",
+      "data"
+    ],
+    "displayHtml": "(<strong>COLING’18</strong>, <strong><em style=\"color: rgb(102, 0, 255);\"><a\n                  href=\"https://coling2018.org/index.html%3Fp=1558.html\" style=\"color: rgb(102, 0, 255);\">best paper\n                  nominations</a></em></strong>) <a href=\"https://aclanthology.org/C18-1036\">\n              <strong>Cooperative denoising\n                for distantly supervised relation extraction</strong></a>\n            <ul>\n              <li>Kai Lei, <strong>Daoyuan Chen</strong>#, Yaliang Li, Nan Du, Min Yang, Wei Fan, Ying Shen.</li>\n            </ul>"
+  },
+  {
+    "title": "Ontology evaluation with path-based text-aware entropy computation",
+    "url": "https://dl.acm.org/doi/abs/10.1145/3209978.3210067",
+    "conferenceGroup": "SIGIR, ACL, COLING, CIKM",
+    "year": 2018,
+    "contribution": "First author, non-first position",
+    "topics": [
+      "data"
+    ],
+    "displayHtml": "(<strong><em>SIGIR’18</em></strong>)\n            <a href=\"https://dl.acm.org/doi/abs/10.1145/3209978.3210067\">\n              <strong>Ontology\n                evaluation with path-based text-aware entropy computation</strong>\n            </a>\n            <ul>\n              <li>Ying Shen, <strong>Daoyuan Chen</strong>#, Min Yang, Yaliang Li, Nan Du, Kai Lei.</li>\n            </ul>"
+  },
+  {
+    "title": "An ontology-driven clinical decision support system (IDDAP) for infectious disease diagnosis and antibiotic prescription",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29433958/",
+    "conferenceGroup": "TNNLS, IJCAI, AAAI, AIMedicine",
+    "year": 2018,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "data",
+      "human",
+      "sys"
+    ],
+    "displayHtml": "(<em>Artificial intelligence in medicine, 2018, IF 7.5</em>) <a\n              href=\"https://pubmed.ncbi.nlm.nih.gov/29433958/\">\n              <strong>An ontology-driven clinical decision support system\n                (IDDAP) for infectious disease diagnosis and antibiotic prescription</strong>\n            </a>\n            <ul>\n              <li>Ying Shen, Kaiqi Yuan, <strong>Daoyuan Chen</strong>, Joël Colloc, Min Yang, Yaliang Li, Kai Lei.\n              </li>\n            </ul>"
+  },
+  {
+    "title": "Spectral Evolution Search: Efficient Inference-Time Scaling for Reward-Aligned Image Generation",
+    "url": "https://arxiv.org/abs/2602.03208",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2026,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "vlm",
+      "data",
+      "efficient"
+    ],
+    "displayHtml": "(<strong><em>ICML’26</em></strong>) <a href=\"https://arxiv.org/abs/2602.03208\"><strong>\n              Spectral Evolution Search: Efficient Inference-Time Scaling for Reward-Aligned Image Generation\n            </strong></a>\n            <ul>\n              <li>Jinyan Ye, Zhongjie Duan, Zhiwen Li, Cen Chen, <strong>Daoyuan Chen</strong>, Yaliang Li, Yingda Chen</li>\n              <li><em>A gradient-free inference-time search method that exploits the low-frequency sensitivity of diffusion dynamics.</em></li>\n            </ul>"
+  },
+  {
+    "title": "GeoAlign: Geometric Rollout Curation for Robust LLM Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2606.26917",
+    "conferenceGroup": "ICML, NeurIPS, ICLR",
+    "year": 2026,
+    "contribution": "Subsequent Author",
+    "seniorAuthorship": true,
+    "topics": [
+      "llm",
+      "data",
+      "efficient"
+    ],
+    "displayHtml": "(<strong><em>ICML’26</em></strong>) <a href=\"https://arxiv.org/abs/2606.26917\"><strong>\n              GeoAlign: Geometric Rollout Curation for Robust LLM Reinforcement Learning\n            </strong></a>\n            <ul>\n              <li>Ting Zhou, Zhenqing Ling, Yiyang Zhao, Ying Shen, <strong>Daoyuan Chen</strong>*</li>\n              <li><em>A forward-only rollout curation method that detects directional inconsistency and improves reinforcement-learning stability.</em></li>\n            </ul>"
+  },
+  {
+    "title": "VIRAL: Visual In-Context Reasoning via Analogy in Diffusion Transformers",
+    "url": "https://arxiv.org/abs/2602.03210",
+    "conferenceGroup": "arXiv",
+    "year": 2026,
+    "contribution": "Subsequent Author",
+    "topics": [
+      "vlm",
+      "data"
+    ],
+    "displayHtml": "(<em>arXiv’26</em>) <a href=\"https://arxiv.org/abs/2602.03210\"><strong>\n              VIRAL: Visual In-Context Reasoning via Analogy in Diffusion Transformers\n            </strong></a>\n            <ul>\n              <li>Zhiwen Li, Zhongjie Duan, Jinyan Ye, Cen Chen, <strong>Daoyuan Chen</strong>, Yaliang Li, Yingda Chen</li>\n              <li><em>A unified visual in-context learning framework that formulates heterogeneous vision tasks as conditional generation by analogy.</em></li>\n            </ul>"
+  },
+  {
+    "title": "CDR-Bench: Evaluating Faithful Execution of Compositional, Order-Sensitive Data Refinement Recipes",
+    "url": "https://arxiv.org/abs/2606.31435",
+    "conferenceGroup": "arXiv",
+    "year": 2026,
+    "contribution": "Subsequent Author",
+    "seniorAuthorship": true,
+    "topics": [
+      "llm",
+      "data",
+      "bench"
+    ],
+    "displayHtml": "(<em>arXiv’26</em>) <a href=\"https://arxiv.org/abs/2606.31435\"><strong>\n              CDR-Bench: Evaluating Faithful Execution of Compositional, Order-Sensitive Data Refinement Recipes\n            </strong></a>\n            <ul>\n              <li>Yuchen Huang, Xiang Li, Zhenqing Ling, Sijia Li, Qianli Shen, <strong>Daoyuan Chen</strong>*, Yi R. Fung, Yaliang Li</li>\n              <li><em>A benchmark for whether LLMs can faithfully execute compositional, order-sensitive data-refinement recipes.</em></li>\n            </ul>"
+  },
+  {
+    "title": "Attributing Structured-Output Gains in Function Calling: Interface Alignment versus Procedural Transfer",
+    "url": "https://arxiv.org/abs/2607.02595",
+    "conferenceGroup": "SIGIR, ACL, COLING, CIKM",
+    "year": 2026,
+    "contribution": "Second Author",
+    "topics": [
+      "llm",
+      "bench",
+      "sys"
+    ],
+    "displayHtml": "(<strong><em>Findings of EMNLP’26</em></strong>) <a href=\"https://arxiv.org/abs/2607.02595\"><strong>\n              Attributing Structured-Output Gains in Function Calling: Interface Alignment versus Procedural Transfer\n            </strong></a>\n            <ul>\n              <li>Wanyi Chen, <strong>Daoyuan Chen</strong>, Fang Kong</li>\n              <li><em>An attribution protocol separating interface-alignment gains from transferable procedural skill in function calling.</em></li>\n            </ul>"
+  },
+  {
+    "title": "HumanVBench: Probing Human-Centric Video Understanding in MLLMs with Automatically Synthesized Benchmark Data",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhou_HumanVBench_Probing_Human-Centric_Video_Understanding_in_MLLMs_with_Automatically_Synthesized_CVPR_2026_paper.pdf",
+    "conferenceGroup": "TPAMI, CVPR, IJCV",
+    "year": 2026,
+    "contribution": "Second Author",
+    "topics": [
+      "vlm",
+      "data",
+      "bench",
+      "human"
+    ],
+    "displayHtml": "(<strong><em>CVPR’26</em></strong>) <a href=\"https://openaccess.thecvf.com/content/CVPR2026/papers/Zhou_HumanVBench_Probing_Human-Centric_Video_Understanding_in_MLLMs_with_Automatically_Synthesized_CVPR_2026_paper.pdf\">\n              <strong>HumanVBench: Probing Human-Centric Video Understanding in MLLMs with Automatically Synthesized Benchmark Data</strong>\n            </a>\n            <ul>\n              <li>Ting Zhou, <strong>Daoyuan Chen</strong>^, Qirui Jiao, Bolin Ding, Yaliang Li, Ying Shen</li>\n              <li><em>A new benchmark to evaluate MLLMs on inner emotion recognition and outer behavioral\n                  manifestations, advancing human-like understanding in video perception.</em></li>\n            </ul>"
+  }
+]

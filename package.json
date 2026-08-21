@@ -1,0 +1,14 @@
+{
+  "name": "yxdyc-homepage",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "publications:init": "node scripts/render_publications.mjs --init",
+    "publications:render": "node scripts/render_publications.mjs",
+    "assets:og": "node scripts/generate_og.mjs",
+    "check": "node scripts/check_site.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}

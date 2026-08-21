@@ -1,252 +1,117 @@
 /**
-* Template Name: Selecao - v4.6.0
-* Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+ * Lightweight site interactions derived from the original Selecao template.
+ * Portfolio, slider, lightbox, form, and animation hooks were removed because
+ * this site does not use them.
+ */
 (function() {
   "use strict";
 
-  /**
-   * Easy selector helper function
-   */
-  const select = (el, all = false) => {
-    el = el.trim()
-    if (all) {
-      return [...document.querySelectorAll(el)]
-    } else {
-      return document.querySelector(el)
+  const select = (selector, all = false) => {
+    const normalized = selector.trim();
+    return all ? [...document.querySelectorAll(normalized)] : document.querySelector(normalized);
+  };
+
+  const on = (type, selector, listener, all = false) => {
+    const elements = select(selector, all);
+    if (!elements) return;
+    (all ? elements : [elements]).forEach((element) => element.addEventListener(type, listener));
+  };
+
+  const navbar = select("#navbar");
+  const navbarToggle = select(".mobile-nav-toggle");
+  let lastFocusedBeforeMenu = null;
+
+  function mobileMenuFocusable() {
+    if (!navbar) return [];
+    return [...navbar.querySelectorAll('a[href], button:not([disabled])')].filter((element) => {
+      return element.offsetParent !== null;
+    });
+  }
+
+  function setMobileMenu(open, restoreFocus = false) {
+    if (!navbar || !navbarToggle) return;
+    navbar.classList.toggle("navbar-mobile", open);
+    navbarToggle.classList.toggle("bi-list", !open);
+    navbarToggle.classList.toggle("bi-x", open);
+    navbarToggle.setAttribute("aria-expanded", String(open));
+    navbarToggle.setAttribute("aria-label", open ? "Close navigation" : "Open navigation");
+    document.body.classList.toggle("nav-open", open);
+
+    if (open) {
+      lastFocusedBeforeMenu = document.activeElement;
+      requestAnimationFrame(() => mobileMenuFocusable().find((element) => element !== navbarToggle)?.focus());
+    } else if (restoreFocus && lastFocusedBeforeMenu instanceof HTMLElement) {
+      lastFocusedBeforeMenu.focus();
     }
   }
 
-  /**
-   * Easy event listener function
-   */
-  const on = (type, el, listener, all = false) => {
-    let selectEl = select(el, all)
-    if (selectEl) {
-      if (all) {
-        selectEl.forEach(e => e.addEventListener(type, listener))
-      } else {
-        selectEl.addEventListener(type, listener)
-      }
+  on("click", ".mobile-nav-toggle", () => {
+    setMobileMenu(!navbar.classList.contains("navbar-mobile"), true);
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (!navbar?.classList.contains("navbar-mobile")) return;
+    if (event.key === "Escape") {
+      event.preventDefault();
+      setMobileMenu(false, true);
+      return;
     }
-  }
-
-  /**
-   * Easy on scroll event listener 
-   */
-  const onscroll = (el, listener) => {
-    el.addEventListener('scroll', listener)
-  }
-
-  /**
-   * Navbar links active state on scroll
-   */
-  let navbarlinks = select('#navbar .scrollto', true)
-  const navbarlinksActive = () => {
-    let position = window.scrollY + 200
-    navbarlinks.forEach(navbarlink => {
-      if (!navbarlink.hash) return
-      let section = select(navbarlink.hash)
-      if (!section) return
-      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
-        navbarlink.classList.add('active')
-      } else {
-        navbarlink.classList.remove('active')
-      }
-    })
-  }
-  window.addEventListener('load', navbarlinksActive)
-  onscroll(document, navbarlinksActive)
-
-  /**
-   * Scrolls to an element with header offset
-   */
-  const scrollto = (el) => {
-    let header = select('#header')
-    let offset = header.offsetHeight
-
-    let elementPos = select(el).offsetTop
-    window.scrollTo({
-      top: elementPos - offset,
-      behavior: 'smooth'
-    })
-  }
-
-  /**
-   * Toggle .header-scrolled class to #header when page is scrolled
-   */
-  let selectHeader = select('#header')
-  if (selectHeader) {
-    const headerScrolled = () => {
-      if (window.scrollY > 100) {
-        selectHeader.classList.add('header-scrolled')
-      } else {
-        selectHeader.classList.remove('header-scrolled')
-      }
-    }
-    window.addEventListener('load', headerScrolled)
-    onscroll(document, headerScrolled)
-  }
-
-  /**
-   * Back to top button
-   */
-  let backtotop = select('.back-to-top')
-  if (backtotop) {
-    const toggleBacktotop = () => {
-      if (window.scrollY > 100) {
-        backtotop.classList.add('active')
-      } else {
-        backtotop.classList.remove('active')
-      }
-    }
-    window.addEventListener('load', toggleBacktotop)
-    onscroll(document, toggleBacktotop)
-  }
-
-  /**
-   * Mobile nav toggle
-   */
-  on('click', '.mobile-nav-toggle', function(e) {
-    select('#navbar').classList.toggle('navbar-mobile')
-    this.classList.toggle('bi-list')
-    this.classList.toggle('bi-x')
-  })
-
-  /**
-   * Mobile nav dropdowns activate
-   */
-  on('click', '.navbar .dropdown > a', function(e) {
-    if (select('#navbar').classList.contains('navbar-mobile')) {
-      e.preventDefault()
-      this.nextElementSibling.classList.toggle('dropdown-active')
-    }
-  }, true)
-
-  /**
-   * Scrool with ofset on links with a class name .scrollto
-   */
-  on('click', '.scrollto', function(e) {
-    if (select(this.hash)) {
-      e.preventDefault()
-
-      let navbar = select('#navbar')
-      if (navbar.classList.contains('navbar-mobile')) {
-        navbar.classList.remove('navbar-mobile')
-        let navbarToggle = select('.mobile-nav-toggle')
-        navbarToggle.classList.toggle('bi-list')
-        navbarToggle.classList.toggle('bi-x')
-      }
-      scrollto(this.hash)
-    }
-  }, true)
-
-  /**
-   * Scroll with ofset on page load with hash links in the url
-   */
-  window.addEventListener('load', () => {
-    if (window.location.hash) {
-      if (select(window.location.hash)) {
-        scrollto(window.location.hash)
-      }
+    if (event.key !== "Tab") return;
+    const focusable = mobileMenuFocusable();
+    if (focusable.length === 0) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
     }
   });
 
-  /**
-   * Porfolio isotope and filter
-   */
-  window.addEventListener('load', () => {
-    let portfolioContainer = select('.portfolio-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item',
-      });
-
-      let portfolioFilters = select('#portfolio-flters li', true);
-
-      on('click', '#portfolio-flters li', function(e) {
-        e.preventDefault();
-        portfolioFilters.forEach(function(el) {
-          el.classList.remove('filter-active');
-        });
-        this.classList.add('filter-active');
-
-        portfolioIsotope.arrange({
-          filter: this.getAttribute('data-filter')
-        });
-        portfolioIsotope.on('arrangeComplete', function() {
-          AOS.refresh()
-        });
-      }, true);
+  on("click", ".navbar .dropdown > a", function(event) {
+    if (navbar.classList.contains("navbar-mobile")) {
+      event.preventDefault();
+      this.nextElementSibling.classList.toggle("dropdown-active");
     }
+  }, true);
 
+  function scrollToSection(selector) {
+    const header = select("#header");
+    const target = select(selector);
+    if (!header || !target) return;
+    window.scrollTo({ top: target.offsetTop - header.offsetHeight, behavior: "smooth" });
+  }
+
+  on("click", ".scrollto", function(event) {
+    if (!this.hash || !select(this.hash)) return;
+    event.preventDefault();
+    if (navbar.classList.contains("navbar-mobile")) setMobileMenu(false);
+    scrollToSection(this.hash);
+  }, true);
+
+  const navbarLinks = select("#navbar .scrollto", true);
+  function updateActiveNavigation() {
+    const position = window.scrollY + 200;
+    navbarLinks.forEach((link) => {
+      if (!link.hash) return;
+      const section = select(link.hash);
+      link.classList.toggle("active", Boolean(section && position >= section.offsetTop && position <= section.offsetTop + section.offsetHeight));
+    });
+  }
+
+  const header = select("#header");
+  const backToTop = select(".back-to-top");
+  function updateScrollState() {
+    header?.classList.toggle("header-scrolled", window.scrollY > 100);
+    backToTop?.classList.toggle("active", window.scrollY > 100);
+    updateActiveNavigation();
+  }
+
+  document.addEventListener("scroll", updateScrollState, { passive: true });
+  window.addEventListener("load", () => {
+    updateScrollState();
+    if (window.location.hash && select(window.location.hash)) scrollToSection(window.location.hash);
   });
-
-  /**
-   * Initiate portfolio lightbox 
-   */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
-
-  /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
-
-      1200: {
-        slidesPerView: 3,
-        spaceBetween: 20
-      }
-    }
-  });
-
-  /**
-   * Animation on scroll
-   */
-  window.addEventListener('load', () => {
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    })
-  });
-
-})()
+})();

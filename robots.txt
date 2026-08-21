@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yxdyc.github.io/sitemap.xml
